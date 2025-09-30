@@ -10,6 +10,9 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 <!-- Animate on Scroll CSS -->
 <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+<link rel="icon" href="images/logo.png" type="image/png">
+
 <style>
     body { font-family: 'Roboto', sans-serif; scroll-behavior: smooth; }
     h2, h3, h4 { font-family: 'Montserrat', sans-serif; }
@@ -19,7 +22,7 @@
     .nav-link:hover { color: #cce5ff !important; }
     .btn-primary { background: linear-gradient(90deg,#005f99,#003366); border: none; transition: 0.3s; }
     .btn-primary:hover { background: linear-gradient(90deg,#003366,#005f99); }
-    .carousel-item img { height: 80vh; object-fit: cover; filter: brightness(0.6); }
+    .carousel-item img { height: 80vh; object-fit: cover; filter: brightness(0.6); margin-top: 5px; }
     .carousel-caption { bottom: 30%; }
     .card { border-radius: 15px; transition: transform 0.3s, box-shadow 0.3s; }
     .card:hover { transform: translateY(-10px); box-shadow: 0 10px 25px rgba(0,0,0,0.2); }
@@ -29,6 +32,7 @@
     .bg-primary-light { background-color: rgba(0,95,153,0.1); border-radius: 15px; }
     footer { background-color: #003366; color: white; text-align: center; padding: 30px 0; }
     .whatsapp-float { position: fixed; bottom: 20px; right: 20px; z-index: 1000; }
+
 </style>
 </head>
 <body>
@@ -66,7 +70,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto fs-5">
         <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.php">Services</a></li>
         <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
         <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
         <li class="nav-item dropdown">
