@@ -56,27 +56,27 @@
   </div>
 </div>
 
-<!-- Main Navbar -->
+<!-- Main Navbar for Multi-Page Site -->
 <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="padding-top:1rem; padding-bottom:1rem;">
   <div class="container">
-    <a class="navbar-brand fs-3 fw-bold" href="#">WADA</a> <!-- Bigger brand font -->
+    <a class="navbar-brand fs-3 fw-bold" href="index.php">WADA</a> <!-- Brand links to homepage -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto fs-5"> <!-- Bigger nav link font -->
-        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-        <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+      <ul class="navbar-nav ms-auto fs-5">
+        <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">More</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#accreditation">Accreditation</a></li>
-            <li><a class="dropdown-item" href="#equipment">Equipment</a></li>
+            <li><a class="dropdown-item" href="accreditation.html">Accreditation</a></li>
+            <li><a class="dropdown-item" href="equipment.html">Equipment</a></li>
           </ul>
         </li>
-        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
       </ul>
     </div>
   </div>
@@ -409,18 +409,7 @@
 </style>
 
 
-<!-- Contact Section -->
-<section id="contact" class="container my-5" data-aos="fade-up">
-    <h2 class="text-primary mb-4 text-center">Contact Us</h2>
-    <form method="post" class="mx-auto" style="max-width:600px;">
-        <input type="text" name="name" placeholder="Your Name" class="form-control mb-3" required>
-        <input type="email" name="email" placeholder="Your Email" class="form-control mb-3" required>
-        <textarea name="message" placeholder="Your Message" class="form-control mb-3" required></textarea>
-        <div class="text-center">
-            <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
-        </div>
-    </form>
-</section>
+
 
 <!-- WhatsApp Floating Button -->
 <a href="https://wa.me/1234567890" target="_blank" class="whatsapp-float">
