@@ -119,15 +119,15 @@
 </section>
 
 <!-- About Section -->
-<section id="about" class="container my-5" data-aos="fade-up">
+<section id="about" class="container my-5 py-5" style="background-color: #f8f9fa; border-radius: 15px;" data-aos="fade-up">
   <div class="row align-items-center">
     <!-- Image Side -->
     <div class="col-md-6 mb-4 mb-md-0" data-aos="fade-right">
-      <img src="images/logo.png" alt="WADA Team" class="img-fluid rounded shadow">
+      <img src="images/logo.png" alt="WADA Team" class="img-fluid rounded shadow-lg">
     </div>
     <!-- Text Side -->
     <div class="col-md-6" data-aos="fade-left">
-      <h3 class="text-primary mb-3">About Us</h3> <!-- smaller heading -->
+      <h2 class="text-primary mb-4 display-5 fw-bold">About Us</h2> <!-- bigger heading -->
       <p class="fs-5">West Africa Diving Association (WADA) has been a leader in marine construction and diving services in Liberia for over <strong>20 years</strong>. Our team is trained by professional divers from Finland Divers, DCN Global LLC, Stantly Consultancy, PADI, and BAM International. We provide customized solutions for complex underwater projects while ensuring safety, quality, and environmental responsibility.</p>
       <ul class="fs-5">
         <li>Project management, commercial diving, in-water surveys, hull inspections, environmental support</li>
@@ -135,125 +135,279 @@
         <li>Only local company to successfully salvage a wreck <strong>seven times</strong></li>
         <li>Trusted by United States Embassy, AMP Terminals, MSG Shipping, Ocean Shipping GETMA, and National Port Authority</li>
       </ul>
-      <p class="mt-3 fs-5"><strong>Contact Us:</strong> <a href="tel:+231886517084" class="text-primary">(+231) 886-517-084</a></p>
+      <p class="mt-4 fs-5"><strong>Contact Us:</strong> <a href="tel:+231886517084" class="text-primary fw-bold">(+231) 886-517-084</a></p>
     </div>
   </div>
 </section>
 
 
+
 <!-- Services Section -->
-<section id="services" class="container my-5">
-    <h2 class="text-primary mb-4 text-center">Our Services</h2>
+<section id="services" class="container my-5 py-5" style="background-color: #f8f9fa; border-radius: 15px;" data-aos="fade-up">
+    <h2 class="text-primary mb-5 text-center display-5 fw-bold">Our Services</h2>
     <div class="row g-4">
         <div class="col-md-4" data-aos="zoom-in">
-            <div class="card h-100">
-                <img src="images/diving1.jpg" class="card-img-top" alt="Scuba Diving">
+            <div class="card h-100 shadow-lg border-0 rounded-4 hover-scale">
+                <img src="images/Hull_Inspection.png" class="card-img-top rounded-top-4" alt="Hull Inspections">
                 <div class="card-body text-center">
-                    <h5 class="card-title">Hull Inspections</h5>
-                    <p class="card-text">Landscape underwater scene of a Black commercial diver in full scuba gear inspecting the hull of a massive cargo ship.</p>
+                    <h5 class="card-title fs-5 fw-bold">Hull Inspections</h5>
+                    <p class="card-text fs-5">Detailed in-water hull inspections to assess vessel condition, safety, and compliance.</p>
                 </div>
             </div>
         </div>
         <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="card h-100">
-                <img src="images/diving2.jpg" class="card-img-top" alt="Snorkeling">
+            <div class="card h-100 shadow-lg border-0 rounded-4 hover-scale">
+                <img src="images/in_water.png" class="card-img-top rounded-top-4" alt="In-Water Survey">
                 <div class="card-body text-center">
-                    <h5 class="card-title">Snorkeling</h5>
-                    <p class="card-text">Safe and guided snorkeling adventures for families and beginners.</p>
+                    <h5 class="card-title fs-5 fw-bold">In-Water Survey</h5>
+                    <p class="card-text fs-5">Professional underwater surveys for oil & gas, marine, and civil engineering industries.</p>
                 </div>
             </div>
         </div>
         <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
-            <div class="card h-100">
-                <img src="images/diving3.jpg" class="card-img-top" alt="Dive Training">
+            <div class="card h-100 shadow-lg border-0 rounded-4 hover-scale">
+                <img src="images/Underwater Welding.png" class="card-img-top rounded-top-4" alt="Underwater Welding">
                 <div class="card-body text-center">
-                    <h5 class="card-title">Dive Training</h5>
-                    <p class="card-text">Professional courses to get certified and confident underwater.</p>
+                    <h5 class="card-title fs-5 fw-bold">Underwater Welding</h5>
+                    <p class="card-text fs-5">Hyperbaric welding, both wet and dry, ensuring strong and durable repairs for marine structures.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<!-- Additional CSS -->
+<style>
+    /* Hover effect for cards */
+    .hover-scale {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .hover-scale:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    }
+</style>
+
 
 <!-- Projects Section -->
-<section id="projects" class="container my-5" data-aos="fade-up">
-    <h2 class="text-primary mb-4 text-center">Our Projects</h2>
+<section id="projects" class="container my-5 py-5" style="background-color: #f8f9fa; border-radius: 15px;" data-aos="fade-up">
+    <h2 class="text-primary mb-5 text-center display-5 fw-bold">Our Projects</h2>
     <div class="row g-4">
-        <div class="col-md-4">
-            <div class="card">
-                <img src="images/tubman_bridge.jpg" class="card-img-top project-img" alt="Tubman Bridge">
+        <!-- Project Card 1 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up">
+            <div class="card h-100 shadow-lg border-0 rounded-4 hover-scale">
+                <img src="images/work.jpeg" class="card-img-top rounded-top-4" alt="Tubman Bridge">
                 <div class="card-body">
-                    <h5 class="card-title">Tubman Bridge Renovation</h5>
-                    <p>Cast concrete pillars and welded underwater support structures in collaboration with Finland Divers.</p>
+                    <h5 class="card-title fs-5 fw-bold">Tubman Bridge Renovation</h5>
+                    <p class="card-text fs-5">Collaborated with Finland Divers to cast concrete pillars and weld underwater support structures.</p>
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="card">
-                <img src="images/freeport_monrovia.jpg" class="card-img-top project-img" alt="Freeport">
+
+        <!-- Project Card 2 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card h-100 shadow-lg border-0 rounded-4 hover-scale">
+                <img src="images/wrek_shi[.jpeg" class="card-img-top rounded-top-4" alt="Wreck Salvage">
                 <div class="card-body">
-                    <h5 class="card-title">Freeport of Monrovia</h5>
-                    <p>Emergency rehabilitation under EU supervision, assisting critical port operations.</p>
+                    <h5 class="card-title fs-5 fw-bold">Wreck Salvage Operations</h5>
+                    <p class="card-text fs-5">Successfully salvaged seven wrecks; worked with PAE, ECOMOG gun boats, MSG Shipping, and OTC.</p>
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="card">
-                <img src="images/container_terminal.jpg" class="card-img-top project-img" alt="Container Terminal">
+
+        <!-- Project Card 3 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="card h-100 shadow-lg border-0 rounded-4 hover-scale">
+                <img src="images/monema.jpeg" class="card-img-top rounded-top-4" alt="Freeport of Monrovia">
                 <div class="card-body">
-                    <h5 class="card-title">Monrovia Container Terminal</h5>
-                    <p>Concrete casting, welding anodes, and in-water survey with AMP Terminals & BAM International.</p>
+                    <h5 class="card-title fs-5 fw-bold">Freeport of Monrovia</h5>
+                    <p class="card-text fs-5">Instrumental in the Emergency Rehabilitation Program under EU supervision.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project Card 4 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="card h-100 shadow-lg border-0 rounded-4 hover-scale">
+                <img src="images/USEmbassy.jpeg" class="card-img-top rounded-top-4" alt="US Embassy Inspection">
+                <div class="card-body">
+                    <h5 class="card-title fs-5 fw-bold">US Embassy Ocean Inspection</h5>
+                    <p class="card-text fs-5">Inspected ocean bottom to a depth of 12 meters near the American Embassy for safety and surveys.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project Card 5 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="card h-100 shadow-lg border-0 rounded-4 hover-scale">
+                <img src="images/APM.jpeg" class="card-img-top rounded-top-4" alt="Monrovia Container Terminal">
+                <div class="card-body">
+                    <h5 class="card-title fs-5 fw-bold">Monrovia Container Terminal</h5>
+                    <p class="card-text fs-5">Assisted AMP Terminals and BAM International: casting pillars, welding anodes, and in-water surveys.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project Card 6 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
+            <div class="card h-100 shadow-lg border-0 rounded-4 hover-scale">
+                <img src="images/ship_main.jpeg" class="card-img-top rounded-top-4" alt="Ship Maintenance">
+                <div class="card-body">
+                    <h5 class="card-title fs-5 fw-bold">Ship Maintenance</h5>
+                    <p class="card-text fs-5">Conducted numerous onshore and offshore maintenance operations for various shipping agencies with 100% success rate.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<!-- Additional CSS for hover effect -->
+<style>
+    .hover-scale {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .hover-scale:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    }
+</style>
+
 
 <!-- Team Section -->
-<section id="team" class="container my-5" data-aos="fade-up">
-    <h2 class="text-primary mb-4 text-center">Meet Our Team</h2>
+<section id="team" class="container my-5 py-5" style="background-color: #f8f9fa; border-radius: 15px;" data-aos="fade-up">
+    <h2 class="text-primary mb-5 text-center display-5 fw-bold">Meet Our Team</h2>
     <div class="row text-center g-4">
-        <div class="col-md-3">
-            <img src="images/diver1.jpg" alt="Trainer 1" class="team-img mb-2">
-            <h6>John Doe</h6>
-            <p>Diving Instructor (PADI Certified)</p>
+        <div class="col-md-3" data-aos="zoom-in">
+            <div class="team-card rounded-4 shadow-lg p-3 hover-scale">
+                <img src="images/placeholder.png" alt="John Doe" class="img-fluid rounded-circle mb-3">
+                <h5 class="fs-5 fw-bold">John Doe</h5>
+                <p class="fs-5">Diving Instructor (PADI Certified)</p>
+            </div>
         </div>
-        <div class="col-md-3">
-            <img src="images/diver2.jpg" alt="Trainer 2" class="team-img mb-2">
-            <h6>Jane Smith</h6>
-            <p>Marine Engineer (BAM International)</p>
+        <div class="col-md-3" data-aos="zoom-in" data-aos-delay="100">
+            <div class="team-card rounded-4 shadow-lg p-3 hover-scale">
+                <img src="images/placeholder.png" alt="Jane Smith" class="img-fluid rounded-circle mb-3">
+                <h5 class="fs-5 fw-bold">Jane Smith</h5>
+                <p class="fs-5">Marine Engineer (BAM International)</p>
+            </div>
         </div>
-        <div class="col-md-3">
-            <img src="images/diver3.jpg" alt="Trainer 3" class="team-img mb-2">
-            <h6>Michael Brown</h6>
-            <p>Commercial Diver (DCN Global)</p>
+        <div class="col-md-3" data-aos="zoom-in" data-aos-delay="200">
+            <div class="team-card rounded-4 shadow-lg p-3 hover-scale">
+                <img src="images/placeholder.png" alt="Michael Brown" class="img-fluid rounded-circle mb-3">
+                <h5 class="fs-5 fw-bold">Michael Brown</h5>
+                <p class="fs-5">Commercial Diver (DCN Global)</p>
+            </div>
         </div>
-        <div class="col-md-3">
-            <img src="images/diver4.jpg" alt="Trainer 4" class="team-img mb-2">
-            <h6>Emily Davis</h6>
-            <p>Environmental Specialist</p>
+        <div class="col-md-3" data-aos="zoom-in" data-aos-delay="300">
+            <div class="team-card rounded-4 shadow-lg p-3 hover-scale">
+                <img src="images/placeholder.png" alt="Emily Davis" class="img-fluid rounded-circle mb-3">
+                <h5 class="fs-5 fw-bold">Emily Davis</h5>
+                <p class="fs-5">Environmental Specialist (DCN Global)</p>
+            </div>
         </div>
     </div>
 </section>
 
+<!-- Additional CSS for hover effect -->
+<style>
+    .hover-scale {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .hover-scale:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    }
+</style>
+
 <!-- Accreditation Section -->
-<section id="accreditation" class="container my-5" data-aos="fade-up">
-    <h2 class="text-primary mb-4 text-center">Accreditation</h2>
-    <p class="text-center">Our diving programs are accredited by internationally recognized organizations ensuring safety, professionalism, and quality training. Partners include:</p>
-    <ul class="text-center list-unstyled">
-        <li>Finland Divers</li>
-        <li>DCN Global LLC</li>
-        <li>Stantly Consultancy</li>
-        <li>PADI</li>
-        <li>BAM International</li>
-    </ul>
+<section id="accreditation" class="container my-5 py-5" style="background-color: #f8f9fa; border-radius: 15px;" data-aos="fade-up">
+    <h2 class="text-primary mb-5 text-center display-5 fw-bold">Accreditations</h2>
+    <p class="text-center fs-5 mb-4">Our diving programs are accredited by internationally recognized organizations ensuring safety, professionalism, and quality training.</p>
+    
+    <div class="row justify-content-center g-4">
+        <!-- Accreditation 1 -->
+        <div class="col-md-4 text-center" data-aos="zoom-in">
+            <div class="card border-0 shadow-lg rounded-4 p-3 hover-scale">
+                <img src="images/certificate.png" alt="NSF International" class="img-fluid mb-3" style="max-height:500px;">
+                <h5 class="fs-5 fw-bold">NSF International Strategic Registrations (International)</h5>
+            </div>
+        </div>
+        <!-- Accreditation 2 -->
+        <div class="col-md-4 text-center" data-aos="zoom-in" data-aos-delay="100">
+            <div class="card border-0 shadow-lg rounded-4 p-3 hover-scale">
+                <img src="images/certific.png" alt="ADCI" class="img-fluid mb-3" style="max-height:500px;">
+                <h5 class="fs-5 fw-bold">Association of Diving Contractors International</h5>
+            </div>
+        </div>
+    </div>
 </section>
 
-<!-- Equipment Section -->
-<section id="equipment" class="container my-5 bg-primary-light p-5" data-aos="fade-up">
-    <h2 class="text-primary mb-4 text-center">Dive Equipment</h2>
-    <p class="text-center">State-of-the-art diving gear including wetsuits, tanks, regulators, masks, and fins to ensure safety and comfort for every dive experience.</p>
+<!-- Additional CSS for hover effect (if not already included) -->
+<style>
+    .hover-scale {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .hover-scale:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    }
+</style>
+
+
+<!-- Dive Equipment Section -->
+<section id="equipment" class="container my-5 py-5" style="background-color: #f8f9fa; border-radius: 15px;" data-aos="fade-up">
+    <h2 class="text-primary mb-5 text-center display-5 fw-bold">Dive Equipment</h2>
+    
+    <!-- Intro text -->
+    <p class="text-center fs-5 mb-5">
+        Our dive gear includes hot water suits, dry suits, hard hat mounted lighting, and specialty equipment for task-specific jobs such as diving in hazardous materials, potable water, or black water. 
+        All equipment is portable and can be shipped anywhere at any time. All gear is maintained to operate efficiently and safely for our crews and third parties. For projects requiring specialty gear or qualified crew, contact us to see how we can assist.
+    </p>
+
+    <!-- Equipment Cards -->
+    <div class="row g-4 justify-content-center">
+        <!-- Equipment 1 -->
+        <div class="col-md-3 text-center" data-aos="zoom-in">
+            <div class="card border-0 shadow-lg rounded-4 p-3 hover-scale">
+                <img src="images/Hot Water Suits.png" alt="Hot Water Suit" class="img-fluid mb-3" style="max-height:200px;">
+                <h5 class="fs-5 fw-bold">Hot Water Suits</h5>
+            </div>
+        </div>
+        <!-- Equipment 2 -->
+        <div class="col-md-3 text-center" data-aos="zoom-in" data-aos-delay="100">
+            <div class="card border-0 shadow-lg rounded-4 p-3 hover-scale">
+                <img src="images/Dry Suits.jpg" alt="Dry Suit" class="img-fluid mb-3" style="max-height:200px;">
+                <h5 class="fs-5 fw-bold">Dry Suits</h5>
+            </div>
+        </div>
+        <!-- Equipment 3 -->
+        <div class="col-md-3 text-center" data-aos="zoom-in" data-aos-delay="200">
+            <div class="card border-0 shadow-lg rounded-4 p-3 hover-scale">
+                <img src="images/Hard Hat Lighting.jpg" alt="Hard Hat Lighting" class="img-fluid mb-3" style="max-height:200px;">
+                <h5 class="fs-5 fw-bold">Hard Hat Lighting</h5>
+            </div>
+        </div>
+        <!-- Equipment 4 -->
+        <div class="col-md-3 text-center" data-aos="zoom-in" data-aos-delay="300">
+            <div class="card border-0 shadow-lg rounded-4 p-3 hover-scale">
+                <img src="images/Specialty Equipment.png" alt="Specialty Gear" class="img-fluid mb-3" style="max-height:200px;">
+                <h5 class="fs-5 fw-bold">Specialty Equipment</h5>
+            </div>
+        </div>
+    </div>
 </section>
+
+<!-- Additional CSS (if not already included) -->
+<style>
+.hover-scale {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hover-scale:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+</style>
+
 
 <!-- Contact Section -->
 <section id="contact" class="container my-5" data-aos="fade-up">
