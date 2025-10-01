@@ -71,8 +71,8 @@
       <ul class="navbar-nav ms-auto fs-5">
         <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
         <li class="nav-item"><a class="nav-link" href="services.php">Services</a></li>
-        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-        <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+        <li class="nav-item"><a class="nav-link" href="projects.php">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="team.php">Team</a></li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">More</a>
           <ul class="dropdown-menu">
