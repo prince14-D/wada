@@ -108,80 +108,133 @@
 </section>
 
 
-<!-- Services Cards Section -->
+<<!-- Services Cards Section -->
 <section id="services" class="container my-5 py-5" data-aos="fade-up">
-    <h2 class="text-primary mb-5 text-center display-5 fw-bold">Our Services</h2>
-    <div class="row g-4">
-        <div class="col-md-4" data-aos="zoom-in">
-            <div class="card h-100 shadow-lg border-0 rounded-4 hover-scale">
-                <img src="images/Hull_Inspection.png" class="card-img-top rounded-top-4" alt="Hull Inspections">
-                <div class="card-body text-center">
-                    <h5 class="card-title fs-5 fw-bold">Hull Inspections</h5>
-                    <p class="card-text fs-5">Detailed in-water hull inspections to assess vessel condition, safety, and compliance.</p>
-                </div>
-            </div>
+  <h2 class="text-primary mb-5 text-center display-5 fw-bold">Our Services</h2>
+  <div class="row g-4">
+
+    <!-- Service 1 -->
+    <div class="col-md-4" data-aos="zoom-in">
+      <div class="card h-100 shadow-lg border-0 rounded-4 hover-scale">
+        <div class="position-relative">
+          <img src="images/Hull_Inspection.png" class="card-img-top rounded-top-4" alt="Hull Inspections">
+          <i class="bi bi-ship-fill position-absolute top-0 start-0 m-3 text-primary fs-2 bg-white p-2 rounded-circle shadow"></i>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="card h-100 shadow-lg border-0 rounded-4 hover-scale">
-                <img src="images/in_water.png" class="card-img-top rounded-top-4" alt="In-Water Survey">
-                <div class="card-body text-center">
-                    <h5 class="card-title fs-5 fw-bold">In-Water Survey</h5>
-                    <p class="card-text fs-5">Professional underwater surveys for oil & gas, marine, and civil engineering industries.</p>
-                </div>
-            </div>
+        <div class="card-body text-center">
+          <h5 class="card-title fs-4 fw-bold">Hull Inspections</h5>
+          <p class="card-text fs-6">Detailed in-water inspections to assess vessel condition, safety, and compliance.</p>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
-            <div class="card h-100 shadow-lg border-0 rounded-4 hover-scale">
-                <img src="images/Underwater Welding.png" class="card-img-top rounded-top-4" alt="Underwater Welding">
-                <div class="card-body text-center">
-                    <h5 class="card-title fs-5 fw-bold">Underwater Welding</h5>
-                    <p class="card-text fs-5">Hyperbaric welding, both wet and dry, ensuring strong and durable repairs for marine structures.</p>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
+
+    <!-- Service 2 -->
+    <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+      <div class="card h-100 shadow-lg border-0 rounded-4 hover-scale">
+        <div class="position-relative">
+          <img src="images/in_water.png" class="card-img-top rounded-top-4" alt="In-Water Survey">
+          <i class="bi bi-droplet-fill position-absolute top-0 start-0 m-3 text-primary fs-2 bg-white p-2 rounded-circle shadow"></i>
+        </div>
+        <div class="card-body text-center">
+          <h5 class="card-title fs-4 fw-bold">In-Water Survey</h5>
+          <p class="card-text fs-6">Professional underwater surveys for oil & gas, marine, and civil engineering industries.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Service 3 -->
+    <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+      <div class="card h-100 shadow-lg border-0 rounded-4 hover-scale">
+        <div class="position-relative">
+          <img src="images/Underwater Welding.png" class="card-img-top rounded-top-4" alt="Underwater Welding">
+          <i class="bi bi-tools position-absolute top-0 start-0 m-3 text-primary fs-2 bg-white p-2 rounded-circle shadow"></i>
+        </div>
+        <div class="card-body text-center">
+          <h5 class="card-title fs-4 fw-bold">Underwater Welding</h5>
+          <p class="card-text fs-6">Certified hyperbaric welding (wet & dry), ensuring durable repairs for marine structures.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Service 4 -->
+    <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+      <div class="card h-100 shadow-lg border-0 rounded-4 hover-scale">
+        <div class="position-relative">
+          <img src="images/ship_maintence.jpeg" class="card-img-top rounded-top-4" alt="Ship Maintenance">
+          <i class="bi bi-gear-wide-connected position-absolute top-0 start-0 m-3 text-primary fs-2 bg-white p-2 rounded-circle shadow"></i>
+        </div>
+        <div class="card-body text-center">
+          <h5 class="card-title fs-4 fw-bold">Ship Maintenance</h5>
+          <p class="card-text fs-6">Comprehensive ship repair & maintenance including cleaning, painting, and equipment servicing.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Service 5 -->
+    <div class="col-md-4" data-aos="zoom-in" data-aos-delay="400">
+      <div class="card h-100 shadow-lg border-0 rounded-4 hover-scale">
+        <div class="position-relative">
+          <img src="images/CCTV INSPECTION.jpeg" class="card-img-top rounded-top-4" alt="CCTV Inspection">
+          <i class="bi bi-camera-video-fill position-absolute top-0 start-0 m-3 text-primary fs-2 bg-white p-2 rounded-circle shadow"></i>
+        </div>
+        <div class="card-body text-center">
+          <h5 class="card-title fs-4 fw-bold">CCTV Inspections</h5>
+          <p class="card-text fs-6">High-resolution underwater video inspections for precise structural assessments.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Service 6 -->
+    <div class="col-md-4" data-aos="zoom-in" data-aos-delay="500">
+      <div class="card h-100 shadow-lg border-0 rounded-4 hover-scale">
+        <div class="position-relative">
+          <img src="images/Cheatsea.jpeg" class="card-img-top rounded-top-4" alt="Sea Chest Services">
+          <i class="bi bi-life-preserver position-absolute top-0 start-0 m-3 text-primary fs-2 bg-white p-2 rounded-circle shadow"></i>
+        </div>
+        <div class="card-body text-center">
+          <h5 class="card-title fs-4 fw-bold">Sea Chest Services</h5>
+          <p class="card-text fs-6">Cleaning, inspection, and maintenance of sea chests to ensure optimal ship performance.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
 </section>
 
-<!-- Detailed Services Section -->
-<section class="container my-5 py-5" data-aos="fade-up">
-  <h2 class="text-primary fw-bold display-5 text-center mb-5">Service Details</h2>
 
-  <div class="row align-items-center mb-5">
-    <div class="col-md-6" data-aos="fade-right">
-      <img src="images/Hull_Inspection.png" alt="Hull Inspections" class="img-fluid rounded-4 shadow-lg">
-    </div>
-    <div class="col-md-6" data-aos="fade-left">
-      <h3 class="text-primary fw-bold mb-3">Hull Inspections</h3>
-      <p class="fs-5">
-        We perform detailed in-water hull inspections to assess vessel condition, safety, and compliance. Using state-of-the-art equipment, our divers identify structural issues, corrosion, and marine growth to ensure vessels operate efficiently and safely.
-      </p>
-    </div>
-  </div>
+<!-- Health & Safety Section -->
+<section id="health-safety" class="container my-5 py-5" data-aos="fade-up">
+  <h2 class="text-primary text-center fw-bold display-5 mb-4">Health &amp; Safety Commitment</h2>
+  <p class="text-center fs-5 mb-5">
+    At WADA, the safety of our team and clients is our highest priority. Through strict protocols and collaborative programs, we ensure every operation is conducted with zero compromise on safety.
+  </p>
 
-  <div class="row align-items-center mb-5 flex-md-row-reverse">
-    <div class="col-md-6" data-aos="fade-left">
-      <img src="images/in_water.png" alt="In-Water Survey" class="img-fluid rounded-4 shadow-lg">
-    </div>
+  <div class="row g-4">
+    <!-- Safety Philosophy -->
     <div class="col-md-6" data-aos="fade-right">
-      <h3 class="text-primary fw-bold mb-3">In-Water Survey</h3>
-      <p class="fs-5">
-        Our professional underwater surveys are designed for oil & gas, marine, and civil engineering industries. We provide detailed assessments of submerged structures, pipelines, and underwater facilities to support safe project execution and maintenance.
-      </p>
+      <div class="p-4 shadow-lg rounded-4 bg-light h-100">
+        <h4 class="text-primary fw-bold"><i class="bi bi-shield-check me-2"></i> Safety Philosophy</h4>
+        <p class="fs-5">
+          Our safety philosophy emphasizes teamwork and collaboration with our clients to create the safest work environment possible.  
+          Through our <strong>TEAM Program (Together Everyone Achieves More)</strong>, we encourage active participation to improve safety on all current and future projects.
+        </p>
+      </div>
     </div>
-  </div>
 
-  <div class="row align-items-center mb-5">
-    <div class="col-md-6" data-aos="fade-right">
-      <img src="images/Underwater Welding.png" alt="Underwater Welding" class="img-fluid rounded-4 shadow-lg">
-    </div>
+    <!-- Safety Practices -->
     <div class="col-md-6" data-aos="fade-left">
-      <h3 class="text-primary fw-bold mb-3">Underwater Welding</h3>
-      <p class="fs-5">
-        Our certified divers perform hyperbaric welding, both wet and dry, ensuring strong and durable repairs for marine structures. We prioritize safety and precision to guarantee lasting results under challenging underwater conditions.
-      </p>
+      <div class="p-4 shadow-lg rounded-4 bg-light h-100">
+        <h4 class="text-primary fw-bold"><i class="bi bi-clipboard-check me-2"></i> Safety Practices</h4>
+        <ul class="fs-5">
+          <li>Company-wide employee training & proactive dive safety procedures</li>
+          <li>Daily safety meetings & Job Hazard Analysis (JHA)</li>
+          <li>Dedicated Safety Committees & Trend Tracking</li>
+          <li>Job Safety Kickoffs & Frequent Site Safety Audits</li>
+        </ul>
+      </div>
     </div>
   </div>
 </section>
+
 
 <!-- WhatsApp Floating Button -->
 <a href="https://wa.me/1234567890" target="_blank" class="whatsapp-float">

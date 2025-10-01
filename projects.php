@@ -109,74 +109,127 @@
 </section>
 
 
-<!-- Projects Cards Section -->
+<!-- Project Experience Section -->
 <section class="container my-5 py-5" data-aos="fade-up">
-    <h2 class="text-primary mb-5 text-center display-5 fw-bold">Featured Projects</h2>
-    <div class="row g-4">
-        <div class="col-md-4" data-aos="zoom-in">
-            <div class="card h-100 shadow-lg border-0 rounded-4 hover-scale">
-                <img src="images/project1.jpg" class="card-img-top rounded-top-4" alt="Project 1">
-                <div class="card-body text-center">
-                    <h5 class="card-title fs-5 fw-bold">Harbor Hull Inspection</h5>
-                    <p class="card-text fs-6">Comprehensive inspection of commercial vessels to ensure safety and compliance with maritime standards.</p>
-                </div>
+  <h2 class="text-primary text-center fw-bold display-5 mb-5">Our Proven Track Record</h2>
+
+  <div class="row g-4">
+
+    <!-- Project Card 1 -->
+    <div class="col-md-4" data-aos="zoom-in">
+      <div class="card h-100 shadow-lg border-0 rounded-4 hover-scale">
+        <div class="card-body">
+          <h5 class="fw-bold text-primary">Tubman Bridge Rehabilitation</h5>
+          <p class="fs-6">
+            In collaboration with <strong>Finland Divers</strong>, WADA cast concrete pillars and welded underwater support structures during the Tubman Bridge renovation project.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Card 2 -->
+    <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+      <div class="card h-100 shadow-lg border-0 rounded-4 hover-scale">
+        <div class="card-body">
+          <h5 class="fw-bold text-primary">ECOMOG Gunboats Hull Inspection</h5>
+          <p class="fs-6">
+            Contracted by <strong>PAE</strong> to photograph and inspect the hulls of all ECOMOG gunboats, ensuring mission readiness and operational safety.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Card 3 -->
+    <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+      <div class="card h-100 shadow-lg border-0 rounded-4 hover-scale">
+        <div class="card-body">
+          <h5 class="fw-bold text-primary">Port Cleaning Operations</h5>
+          <p class="fs-6">
+            In collaboration with <strong>National Port Authority</strong>, WADA cleaned the ports of Buchanan, Sinoe, and Harper for MSG Shipping, Ocean Shipping, GETMA & OTC.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Projects Timeline Section -->
+<section class="container my-5 py-5" data-aos="fade-up">
+    <h2 class="text-primary mb-5 text-center display-5 fw-bold">Featured Projects Timeline</h2>
+
+    <div class="timeline">
+
+        <!-- Timeline Item 1 -->
+        <div class="timeline-item left" data-aos="fade-right">
+            <div class="timeline-content shadow-lg rounded-4 p-4">
+                <img src="images/Hull_Inspection.png" class="img-fluid rounded-3 mb-3" alt="Harbor Hull Inspection">
+                <h5 class="fw-bold text-primary">Harbor Hull Inspection</h5>
+                <p>Comprehensive inspection of commercial vessels to ensure safety and compliance with maritime standards.</p>
             </div>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="card h-100 shadow-lg border-0 rounded-4 hover-scale">
-                <img src="images/project2.jpg" class="card-img-top rounded-top-4" alt="Project 2">
-                <div class="card-body text-center">
-                    <h5 class="card-title fs-5 fw-bold">Offshore Pipeline Survey</h5>
-                    <p class="card-text fs-6">In-water surveys of underwater pipelines to ensure integrity and prevent environmental hazards.</p>
-                </div>
+
+        <!-- Timeline Item 2 -->
+        <div class="timeline-item right" data-aos="fade-left">
+            <div class="timeline-content shadow-lg rounded-4 p-4">
+                <img src="images/in_water.png" class="img-fluid rounded-3 mb-3" alt="Offshore Pipeline Survey">
+                <h5 class="fw-bold text-primary">Offshore Pipeline Survey</h5>
+                <p>In-water surveys of underwater pipelines to ensure integrity and prevent environmental hazards.</p>
             </div>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
-            <div class="card h-100 shadow-lg border-0 rounded-4 hover-scale">
-                <img src="images/project3.jpg" class="card-img-top rounded-top-4" alt="Project 3">
-                <div class="card-body text-center">
-                    <h5 class="card-title fs-5 fw-bold">Submarine Dock Maintenance</h5>
-                    <p class="card-text fs-6">Expert underwater maintenance and welding work for submarine and naval dock infrastructure.</p>
-                </div>
+
+        <!-- Timeline Item 3 -->
+        <div class="timeline-item left" data-aos="fade-right">
+            <div class="timeline-content shadow-lg rounded-4 p-4">
+                <img src="images/shipnew.jpeg" class="img-fluid rounded-3 mb-3" alt="Submarine Dock Maintenance">
+                <h5 class="fw-bold text-primary">Submarine Dock Maintenance</h5>
+                <p>Expert underwater maintenance and welding work for submarine and naval dock infrastructure.</p>
             </div>
         </div>
+
     </div>
 </section>
 
-<!-- Detailed Project Section -->
-<section class="container my-5 py-5" data-aos="fade-up">
-    <h2 class="text-primary fw-bold display-5 text-center mb-5">Project Highlights</h2>
+<!-- Timeline CSS -->
+<style>
+.timeline {
+  position: relative;
+  padding: 2rem 0;
+}
 
-    <div class="row align-items-center mb-5">
-        <div class="col-md-6" data-aos="fade-right">
-            <img src="images/project1.jpg" alt="Harbor Hull Inspection" class="img-fluid rounded-4 shadow-lg">
-        </div>
-        <div class="col-md-6" data-aos="fade-left">
-            <h3 class="text-primary fw-bold mb-3">Harbor Hull Inspection</h3>
-            <p class="fs-5">Our team conducted thorough in-water hull inspections for multiple commercial vessels at the local harbor. Every inspection included corrosion checks, structural assessments, and safety verification, ensuring regulatory compliance and vessel longevity.</p>
-        </div>
-    </div>
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 4px;
+  height: 100%;
+  background: #005f99;
+  transform: translateX(-50%);
+}
 
-    <div class="row align-items-center mb-5 flex-md-row-reverse">
-        <div class="col-md-6" data-aos="fade-left">
-            <img src="images/project2.jpg" alt="Offshore Pipeline Survey" class="img-fluid rounded-4 shadow-lg">
-        </div>
-        <div class="col-md-6" data-aos="fade-right">
-            <h3 class="text-primary fw-bold mb-3">Offshore Pipeline Survey</h3>
-            <p class="fs-5">We performed in-depth underwater surveys on offshore pipelines, identifying areas requiring maintenance and preventing potential leaks. Our reports included high-resolution images and comprehensive data analytics for client decision-making.</p>
-        </div>
-    </div>
+.timeline-item {
+  position: relative;
+  width: 50%;
+  padding: 1rem 2rem;
+}
 
-    <div class="row align-items-center mb-5">
-        <div class="col-md-6" data-aos="fade-right">
-            <img src="images/project3.jpg" alt="Submarine Dock Maintenance" class="img-fluid rounded-4 shadow-lg">
-        </div>
-        <div class="col-md-6" data-aos="fade-left">
-            <h3 class="text-primary fw-bold mb-3">Submarine Dock Maintenance</h3>
-            <p class="fs-5">Our certified divers conducted underwater welding and maintenance at a submarine dock. The project included hull repairs, structural reinforcement, and safety checks, completed with precision and adherence to strict timelines.</p>
-        </div>
-    </div>
-</section>
+.timeline-item.left { left: 0; text-align: left; }
+.timeline-item.right { left: 50%; text-align: left; }
+
+.timeline-content {
+  background: white;
+  border-left: 5px solid #005f99;
+}
+
+@media (max-width: 768px) {
+  .timeline::before { left: 8px; }
+  .timeline-item { width: 100%; padding-left: 2rem; }
+  .timeline-item.right { left: 0; }
+}
+</style>
+
+
 
 <!-- WhatsApp Floating Button -->
 <a href="https://wa.me/1234567890" target="_blank" class="whatsapp-float">

@@ -103,7 +103,7 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img src="images/diving2.png" class="d-block w-100" alt="Diving 2">
+      <img src="./images/diving2.png" class="d-block w-100" alt="Diving 2">
       <div class="carousel-caption text-center text-white" data-aos="fade-up">
         <h1 class="display-3 fw-bold">Explore the Ocean</h1>
         <p class="lead">Safe and guided diving adventures for all levels</p>
