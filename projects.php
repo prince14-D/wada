@@ -30,7 +30,7 @@
     .hover-scale:hover { transform: translateY(-10px); box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2); }
     .whatsapp-float { position: fixed; bottom: 20px; right: 20px; z-index: 1000; }
     .banner {
-  background: url('images/diving2.png') center/cover no-repeat;
+  background: url('./images/diving2.png') center/cover no-repeat;
   height: 80vh;
   display: flex;
   align-items: center;

@@ -95,7 +95,7 @@
 <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/diving1.png" class="d-block w-100" alt="Diving 1">
+      <img src="./images/diving1.png" class="d-block w-100" alt="Diving 1">
       <div class="carousel-caption text-center text-white" data-aos="fade-up">
         <h1 class="display-3 fw-bold">West Africa Diving Association</h1>
         <p class="lead">Professional Diving Experiences in West Africa</p>
