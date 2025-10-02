@@ -11,7 +11,7 @@
 <!-- Animate on Scroll CSS -->
 <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
-<link rel="icon" href="images/logo.png" type="image/png">
+<link rel="icon" href="images/WADA_LOGO.jpeg" type="image/png">
 
 <style>
     body { font-family: 'Roboto', sans-serif; scroll-behavior: smooth; }
@@ -127,20 +127,36 @@
   <div class="row align-items-center">
     <!-- Image Side -->
     <div class="col-md-6 mb-4 mb-md-0" data-aos="fade-right">
-      <img src="images/logo.png" alt="WADA Team" class="img-fluid rounded shadow-lg">
+      <img src="images/WADA_LOGO.jpeg" alt="WADA Team" class="img-fluid rounded shadow-lg">
     </div>
-    <!-- Text Side -->
     <div class="col-md-6" data-aos="fade-left">
-      <h2 class="text-primary mb-4 display-5 fw-bold">About Us</h2> <!-- bigger heading -->
-      <p class="fs-5">West Africa Diving Association (WADA) has been a leader in marine construction and diving services in Liberia for over <strong>20 years</strong>. Our team is trained by professional divers from Finland Divers, DCN Global LLC, Stantly Consultancy, PADI, and BAM International. We provide customized solutions for complex underwater projects while ensuring safety, quality, and environmental responsibility.</p>
-      <ul class="fs-5">
-        <li>Project management, commercial diving, in-water surveys, hull inspections, environmental support</li>
-        <li>Worked on Tubman Bridge, Freeport of Monrovia, Monrovia Container Terminal, and multiple port clean-ups</li>
-        <li>Only local company to successfully salvage a wreck <strong>seven times</strong></li>
-        <li>Trusted by United States Embassy, AMP Terminals, MSG Shipping, Ocean Shipping GETMA, and National Port Authority</li>
-      </ul>
-      <p class="mt-4 fs-5"><strong>Contact Us:</strong> <a href="tel:+231886517084" class="text-primary fw-bold">(+231) 886-517-084</a></p>
-    </div>
+  <h2 class="text-primary mb-4 display-5 fw-bold">About Us</h2>
+  <p class="fs-5">
+    West Africa Diving Association (WADA) is one of Liberia’s oldest and most trusted marine contractors, providing <strong>over 20 years of expertise</strong> in commercial diving, marine construction, and underwater infrastructure support.  
+    Our strength lies in our ability to quickly adapt to complex underwater challenges while delivering safe, efficient, and cost-effective solutions.
+  </p>
+
+  <p class="fs-5">
+    We are among the <strong>few full-service underwater contractors</strong> capable of offering end-to-end support — from project management and inspection to salvage operations and environmental services.
+  </p>
+
+  <ul class="fs-5">
+    <li>Certified expertise in <strong>commercial diving, in-water surveys, hull inspection & cleaning, and environmental support</strong></li>
+    <li>Successfully executed major projects including <strong>Tubman Bridge Rehabilitation, Freeport of Monrovia Emergency Works, and Monrovia Container Terminal Construction</strong></li>
+    <li><strong>Only local underwater contractor to successfully salvage a wreck — seven times</strong></li>
+    <li>Trusted by <strong>U.S. Embassy, AMP Terminals, PAE, MSG Shipping, GETMA, OBT Shipping, OTC, and the National Port Authority</strong></li>
+  </ul>
+
+  <p class="fs-5">
+    Our divers have been professionally trained and certified by <strong>DCN Global LLC, International Technical Diving Agency, and Academy International USA</strong>, ensuring international-level service delivery.
+  </p>
+
+  <p class="mt-4 fs-5">
+    <strong>Contact Us:</strong> 
+    <a href="tel:+231886517084" class="text-primary fw-bold">(+231) 886-517-084</a>
+  </p>
+</div>
+
   </div>
 </section>
 
@@ -154,7 +170,7 @@
             <div class="card h-100 shadow-lg border-0 rounded-4 hover-scale">
                 <img src="images/Hull_Inspection.png" class="card-img-top rounded-top-4" alt="Hull Inspections">
                 <div class="card-body text-center">
-                    <h5 class="card-title fs-5 fw-bold">Hull Inspections</h5>
+                    <h5 class="card-title fs-5 fw-bold">Hull Inspections & Cleaning</h5>
                     <p class="card-text fs-5">Detailed in-water hull inspections to assess vessel condition, safety, and compliance.</p>
                 </div>
             </div>
@@ -323,94 +339,49 @@
     }
 </style>
 
-<!-- Accreditation Section -->
-<section id="accreditation" class="container my-5 py-5" style="background-color: #f8f9fa; border-radius: 15px;" data-aos="fade-up">
-    <h2 class="text-primary mb-5 text-center display-5 fw-bold">Accreditations</h2>
-    <p class="text-center fs-5 mb-4">Our diving programs are accredited by internationally recognized organizations ensuring safety, professionalism, and quality training.</p>
-    
-    <div class="row justify-content-center g-4">
-        <!-- Accreditation 1 -->
-        <div class="col-md-4 text-center" data-aos="zoom-in">
-            <div class="card border-0 shadow-lg rounded-4 p-3 hover-scale">
-                <img src="images/certificate.png" alt="NSF International" class="img-fluid mb-3" style="max-height:500px;">
-                <h5 class="fs-5 fw-bold">NSF International Strategic Registrations (International)</h5>
-            </div>
+
+<!-- Company Culture Section -->
+<section class="container my-5 py-5" data-aos="fade-up">
+  <div class="bg-primary-light p-5 rounded-4 shadow-sm">
+    <h2 class="text-primary mb-4 text-center fw-bold" style="font-size: 2.5rem;">Our Work Culture</h2>
+    <div class="row g-4 text-center">
+      
+      <div class="col-md-4" data-aos="zoom-in">
+        <div class="p-4">
+          <i class="bi bi-award" style="font-size: 5rem; color: #005f99;"></i>
+          <h5 class="fw-bold mt-3" style="font-size: 2.25rem;">Experience-Driven</h5>
+          <p style="font-size: 1.10rem;">We value experience and empower our team with meaningful responsibilities to grow and excel.</p>
         </div>
-        <!-- Accreditation 2 -->
-        <div class="col-md-4 text-center" data-aos="zoom-in" data-aos-delay="100">
-            <div class="card border-0 shadow-lg rounded-4 p-3 hover-scale">
-                <img src="images/certific.png" alt="ADCI" class="img-fluid mb-3" style="max-height:500px;">
-                <h5 class="fs-5 fw-bold">Association of Diving Contractors International</h5>
-            </div>
+      </div>
+
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="p-4">
+          <i class="bi bi-people" style="font-size: 5rem; color: #005f99;"></i>
+          <h5 class="fw-bold mt-3" style="font-size: 2.25rem;">Team-Oriented</h5>
+          <p style="font-size: 1.10rem;">We foster collaboration both on and off the job, believing success is achieved together.</p>
         </div>
+      </div>
+
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+        <div class="p-4">
+          <i class="bi bi-lightning-charge" style="font-size: 5rem; color: #005f99;"></i>
+          <h5 class="fw-bold mt-3" style="font-size: 2.25rem;">Agile & Reliable</h5>
+          <p style="font-size: 1.10rem;">Small enough to stay responsive — large enough to deliver results efficiently.</p>
+        </div>
+      </div>
+
     </div>
+
+    <!-- CTA Button -->
+    <div class="text-center mt-4">
+      <a href="contact.php" class="btn btn-primary btn-lg px-5 rounded-pill">
+        Hire Us!
+      </a>
+    </div>
+
+  </div>
 </section>
 
-<!-- Additional CSS for hover effect (if not already included) -->
-<style>
-    .hover-scale {
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    .hover-scale:hover {
-        transform: translateY(-10px);
-        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
-    }
-</style>
-
-
-<!-- Dive Equipment Section -->
-<section id="equipment" class="container my-5 py-5" style="background-color: #f8f9fa; border-radius: 15px;" data-aos="fade-up">
-    <h2 class="text-primary mb-5 text-center display-5 fw-bold">Dive Equipment</h2>
-    
-    <!-- Intro text -->
-    <p class="text-center fs-5 mb-5">
-        Our dive gear includes hot water suits, dry suits, hard hat mounted lighting, and specialty equipment for task-specific jobs such as diving in hazardous materials, potable water, or black water. 
-        All equipment is portable and can be shipped anywhere at any time. All gear is maintained to operate efficiently and safely for our crews and third parties. For projects requiring specialty gear or qualified crew, contact us to see how we can assist.
-    </p>
-
-    <!-- Equipment Cards -->
-    <div class="row g-4 justify-content-center">
-        <!-- Equipment 1 -->
-        <div class="col-md-3 text-center" data-aos="zoom-in">
-            <div class="card border-0 shadow-lg rounded-4 p-3 hover-scale">
-                <img src="images/Hot Water Suits.png" alt="Hot Water Suit" class="img-fluid mb-3" style="max-height:200px;">
-                <h5 class="fs-5 fw-bold">Hot Water Suits</h5>
-            </div>
-        </div>
-        <!-- Equipment 2 -->
-        <div class="col-md-3 text-center" data-aos="zoom-in" data-aos-delay="100">
-            <div class="card border-0 shadow-lg rounded-4 p-3 hover-scale">
-                <img src="images/Dry Suits.jpg" alt="Dry Suit" class="img-fluid mb-3" style="max-height:200px;">
-                <h5 class="fs-5 fw-bold">Dry Suits</h5>
-            </div>
-        </div>
-        <!-- Equipment 3 -->
-        <div class="col-md-3 text-center" data-aos="zoom-in" data-aos-delay="200">
-            <div class="card border-0 shadow-lg rounded-4 p-3 hover-scale">
-                <img src="images/Hard Hat Lighting.jpg" alt="Hard Hat Lighting" class="img-fluid mb-3" style="max-height:200px;">
-                <h5 class="fs-5 fw-bold">Hard Hat Lighting</h5>
-            </div>
-        </div>
-        <!-- Equipment 4 -->
-        <div class="col-md-3 text-center" data-aos="zoom-in" data-aos-delay="300">
-            <div class="card border-0 shadow-lg rounded-4 p-3 hover-scale">
-                <img src="images/Specialty Equipment.png" alt="Specialty Gear" class="img-fluid mb-3" style="max-height:200px;">
-                <h5 class="fs-5 fw-bold">Specialty Equipment</h5>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Additional CSS (if not already included) -->
-<style>
-.hover-scale {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.hover-scale:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
-}
-</style>
 
 
 
