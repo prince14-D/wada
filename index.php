@@ -41,7 +41,7 @@
 <div class="bg-primary text-white py-2">
   <div class="container d-flex justify-content-between align-items-center">
     <div class="fs-6">
-      <strong>Contact:</strong> (+231) 886-517-084</a>
+      <strong>Contact:</strong> (+231) 886-517-084 / 776-260-932</a>
     </div>
     <div>
       <a href="https://facebook.com" target="_blank" class="text-white me-3">
@@ -53,7 +53,7 @@
       <a href="https://linkedin.com" target="_blank" class="text-white me-3">
         <i class="bi bi-linkedin fs-5"></i>
       </a>
-      <a href="https://wa.me/1234567890" target="_blank" class="text-white">
+      <a href="https://wa.me/+231776260932" target="_blank" class="text-white">
         <i class="bi bi-whatsapp fs-5"></i>
       </a>
     </div>
@@ -73,6 +73,7 @@
         <li class="nav-item"><a class="nav-link" href="services.php">Services</a></li>
         <li class="nav-item"><a class="nav-link" href="projects.php">Projects</a></li>
         <li class="nav-item"><a class="nav-link" href="team.php">Team</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">More</a>
           <ul class="dropdown-menu">

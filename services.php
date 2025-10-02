@@ -85,6 +85,7 @@
         <li class="nav-item"><a class="nav-link active" href="services.php">Services</a></li>
         <li class="nav-item"><a class="nav-link" href="projects.php">Projects</a></li>
         <li class="nav-item"><a class="nav-link" href="team.php">Team</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">More</a>
           <ul class="dropdown-menu">
@@ -121,7 +122,7 @@
           <i class="bi bi-ship-fill position-absolute top-0 start-0 m-3 text-primary fs-2 bg-white p-2 rounded-circle shadow"></i>
         </div>
         <div class="card-body text-center">
-          <h5 class="card-title fs-4 fw-bold">Hull Inspections</h5>
+          <h5 class="card-title fs-4 fw-bold">Hull Inspections & Cleaning</h5>
           <p class="card-text fs-6">Detailed in-water inspections to assess vessel condition, safety, and compliance.</p>
         </div>
       </div>

@@ -1,9 +1,11 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WADA Team</title>
+<title>WADA Blog & Projects</title>
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 <!-- Bootstrap CSS -->
@@ -12,6 +14,8 @@
 <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 <!-- Bootstrap Icons -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+
+
 
 <style>
     body { font-family: 'Roboto', sans-serif; scroll-behavior: smooth; }
@@ -28,37 +32,32 @@
     footer { background-color: #003366; color: white; text-align: center; padding: 30px 0; }
     .hover-scale { transition: transform 0.3s ease, box-shadow 0.3s ease; }
     .hover-scale:hover { transform: translateY(-10px); box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2); }
-    .team-img { width: 100%; height: 300px; object-fit: cover; border-radius: 15px; }
-    .whatsapp-float { position: fixed; bottom: 20px; right: 20px; z-index: 1000; }
 
     /* Hero Section */
-    .hero-team {
-      background: url('./images/Hull_Inspection.png') center/cover no-repeat;
-      height: 80vh;
+    .hero-blog {
+      background: url('./images/blog-hero.jpg') center/cover no-repeat;
+      height: 60vh;
       display: flex;
       align-items: center;
       justify-content: center;
       text-align: center;
       color: white;
       position: relative;
-        margin-top: 20px;
     }
-    .hero-team::before {
+    .hero-blog::before {
       content: "";
       position: absolute;
       top: 0; left: 0;
       width: 100%; height: 100%;
       background: rgba(0, 0, 0, 0.5);
     }
-    .hero-team-content {
-      position: relative;
-      z-index: 1;
-    }
+    .hero-blog-content { position: relative; z-index: 1; }
 
-    /* Horizontal Scroll Cards */
-    .team-scroll { overflow-x: auto; display: flex; gap: 1rem; padding-bottom: 1rem; }
-    .team-scroll::-webkit-scrollbar { height: 8px; }
-    .team-scroll::-webkit-scrollbar-thumb { background: #005f99; border-radius: 4px; }
+    /* Blog Cards */
+    .blog-card-img { width: 100%; height: 250px; object-fit: cover; border-radius: 15px; }
+    .blog-scroll { overflow-x: auto; display: flex; gap: 1rem; padding-bottom: 1rem; }
+    .blog-scroll::-webkit-scrollbar { height: 8px; }
+    .blog-scroll::-webkit-scrollbar-thumb { background: #005f99; border-radius: 4px; }
 </style>
 </head>
 <body>
@@ -88,8 +87,8 @@
         <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
         <li class="nav-item"><a class="nav-link" href="services.php">Services</a></li>
         <li class="nav-item"><a class="nav-link" href="projects.php">Projects</a></li>
-        <li class="nav-item"><a class="nav-link active" href="team.php">Team</a></li>
-        <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="team.php">Team</a></li>
+        <li class="nav-item"><a class="nav-link active" href="blog.php">Blog</a></li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">More</a>
           <ul class="dropdown-menu">
@@ -104,61 +103,80 @@
 </nav>
 
 <!-- Hero Section -->
-<section class="hero-team" data-aos="fade-up">
-  <div class="hero-team-content">
-    <h1 class="display-3 fw-bold">Meet Our Team</h1>
-    <p class="fs-5">Dedicated professionals driving excellence in diving and underwater operations.</p>
+<section class="hero-blog" data-aos="fade-up">
+  <div class="hero-blog-content">
+    <h1 class="display-3 fw-bold">Latest Projects & Updates</h1>
+    <p class="fs-5">Check out our most recent diving projects and underwater missions.</p>
   </div>
 </section>
 
-<!-- Team Members Section -->
+<!-- Blog Cards Section -->
 <section class="container my-5 py-5" data-aos="fade-up">
-    <h2 class="text-primary mb-5 text-center display-5 fw-bold">Our Experts</h2>
-    <div class="row g-4">
-        <div class="col-md-4" data-aos="zoom-in">
-            <div class="card shadow-lg border-0 rounded-4 hover-scale">
-                <img src="images/placeholder.png" alt="John Doe" class="team-img">
-                <div class="card-body text-center">
-                    <h5 class="card-title fs-5 fw-bold">John Doe</h5>
-                    <p class="card-text fs-6">Chief Executive Officer</p>
-                    <p class="card-text fs-7 text-muted">20 years of maritime expertise leading WADA to innovate in diving solutions worldwide.</p>
-                </div>
-            </div>
+  <h2 class="text-primary mb-5 text-center display-5 fw-bold">Project Gallery</h2>
+  <div class="row g-4">
+
+    <!-- Blog Card 1 -->
+    <div class="col-md-4" data-aos="zoom-in">
+      <div class="card shadow-lg border-0 rounded-4 hover-scale">
+        <img src="images/project1.jpg" alt="Project 1" class="blog-card-img">
+        <div class="card-body">
+          <h5 class="card-title text-primary fw-bold">Tubman Bridge Repair</h5>
+          <p class="card-text fs-7 text-muted">Underwater concrete casting and welding for bridge stability and safety.</p>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="card shadow-lg border-0 rounded-4 hover-scale">
-                <img src="images/placeholder.png" alt="Jane Smith" class="team-img">
-                <div class="card-body text-center">
-                    <h5 class="card-title fs-5 fw-bold">Jane Smith</h5>
-                    <p class="card-text fs-6">Operations Manager</p>
-                    <p class="card-text fs-7 text-muted">Ensures safety, efficiency, and timely delivery for every project.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
-            <div class="card shadow-lg border-0 rounded-4 hover-scale">
-                <img src="images/placeholder.png" alt="Michael Brown" class="team-img">
-                <div class="card-body text-center">
-                    <h5 class="card-title fs-5 fw-bold">Michael Brown</h5>
-                    <p class="card-text fs-6">Lead Diving Specialist</p>
-                    <p class="card-text fs-7 text-muted">Expert diver trained in underwater inspections and welding.</p>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
+
+    <!-- Blog Card 2 -->
+    <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+      <div class="card shadow-lg border-0 rounded-4 hover-scale">
+        <img src="images/project2.jpg" alt="Project 2" class="blog-card-img">
+        <div class="card-body">
+          <h5 class="card-title text-primary fw-bold">Harbor Hull Inspection</h5>
+          <p class="card-text fs-7 text-muted">Comprehensive inspection of commercial vessels ensuring maritime safety.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blog Card 3 -->
+    <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+      <div class="card shadow-lg border-0 rounded-4 hover-scale">
+        <img src="images/project3.jpg" alt="Project 3" class="blog-card-img">
+        <div class="card-body">
+          <h5 class="card-title text-primary fw-bold">Port Cleaning Operations</h5>
+          <p class="card-text fs-7 text-muted">Collaboration with National Port Authority to clean key port areas efficiently.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Horizontal Scroll Latest Projects -->
+<section class="container my-5 py-5" data-aos="fade-up">
+  <h2 class="text-primary mb-5 text-center display-5 fw-bold">More Projects</h2>
+  <div class="blog-scroll">
+    <div class="card flex-shrink-0 shadow-lg border-0 rounded-4 hover-scale" style="width: 220px;">
+      <img src="images/project4.jpg" alt="Project 4" class="blog-card-img">
+      <div class="card-body text-center">
+        <h5 class="card-title fs-6 fw-bold">Offshore Pipeline Survey</h5>
+      </div>
+    </div>
+    <div class="card flex-shrink-0 shadow-lg border-0 rounded-4 hover-scale" style="width: 220px;">
+      <img src="images/project5.jpg" alt="Project 5" class="blog-card-img">
+      <div class="card-body text-center">
+        <h5 class="card-title fs-6 fw-bold">Submarine Dock Maintenance</h5>
+      </div>
+    </div>
+    <div class="card flex-shrink-0 shadow-lg border-0 rounded-4 hover-scale" style="width: 220px;">
+      <img src="images/project6.jpg" alt="Project 6" class="blog-card-img">
+      <div class="card-body text-center">
+        <h5 class="card-title fs-6 fw-bold">Beach Restoration Work</h5>
+      </div>
+    </div>
+  </div>
 </section>
 
 
-
-<!-- Team Philosophy Section -->
-<section class="container my-5 py-5 bg-primary-light rounded-4" data-aos="fade-up">
-    <div class="row justify-content-center text-center">
-        <div class="col-md-8">
-            <h3 class="text-primary fw-bold mb-3">Our Team Philosophy</h3>
-            <p class="fs-5">WADA values its people. We provide our employees with challenging projects, the responsibility and resources they need, and foster a culture of teamwork. Small enough to be responsive and large enough to be effective, our team drives excellence in every mission.</p>
-        </div>
-    </div>
-</section>
 
 <!-- WhatsApp Floating Button -->
 <a href="https://wa.me/1234567890" target="_blank" class="whatsapp-float">

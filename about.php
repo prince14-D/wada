@@ -56,7 +56,7 @@
 <!-- Top Header -->
 <div class="bg-primary text-white py-2">
   <div class="container d-flex justify-content-between align-items-center">
-    <div class="fs-6"><strong>Contact:</strong> (+231) 886-517-084</div>
+    <div class="fs-6"><strong>Contact:</strong> (+231) 886-517-084 / 776260932</div>
     <div>
       <a href="https://facebook.com" target="_blank" class="text-white me-3"><i class="bi bi-facebook fs-5"></i></a>
       <a href="https://instagram.com" target="_blank" class="text-white me-3"><i class="bi bi-instagram fs-5"></i></a>
@@ -79,6 +79,7 @@
         <li class="nav-item"><a class="nav-link" href="services.php">Services</a></li>
         <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
         <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">More</a>
           <ul class="dropdown-menu">
@@ -105,7 +106,7 @@
 <section id="about" class="container my-5 py-5" data-aos="fade-up">
   <div class="row align-items-center">
     <div class="col-md-6 mb-4 mb-md-0" data-aos="fade-right">
-      <img src="images/logo.png" alt="WADA Team" class="img-fluid rounded shadow-lg">
+      <img src="images/WADA_LOGO.jpeg" alt="WADA Team" class="img-fluid rounded shadow-lg">
     </div>
     <div class="col-md-6" data-aos="fade-left">
       <h2 class="text-primary mb-4 display-5 fw-bold">About Us</h2>
