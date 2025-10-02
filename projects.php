@@ -84,6 +84,7 @@
         <li class="nav-item"><a class="nav-link" href="services.php">Services</a></li>
         <li class="nav-item"><a class="nav-link active" href="projects.php">Projects</a></li>
         <li class="nav-item"><a class="nav-link" href="team.php">Team</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">More</a>
           <ul class="dropdown-menu">

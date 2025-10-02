@@ -35,14 +35,15 @@
 
     /* Hero Section */
     .hero-blog {
-      background: url('./images/blog-hero.jpg') center/cover no-repeat;
-      height: 60vh;
+      background: url('./images/in_water.png') center/cover no-repeat;
+      height: 80vh;
       display: flex;
       align-items: center;
       justify-content: center;
       text-align: center;
       color: white;
       position: relative;
+        margin-top: 20px;
     }
     .hero-blog::before {
       content: "";
@@ -54,7 +55,7 @@
     .hero-blog-content { position: relative; z-index: 1; }
 
     /* Blog Cards */
-    .blog-card-img { width: 100%; height: 250px; object-fit: cover; border-radius: 15px; }
+    .blog-card-img { width: 100%; height: 300px; object-fit: cover; border-radius: 15px; }
     .blog-scroll { overflow-x: auto; display: flex; gap: 1rem; padding-bottom: 1rem; }
     .blog-scroll::-webkit-scrollbar { height: 8px; }
     .blog-scroll::-webkit-scrollbar-thumb { background: #005f99; border-radius: 4px; }
@@ -118,7 +119,7 @@
     <!-- Blog Card 1 -->
     <div class="col-md-4" data-aos="zoom-in">
       <div class="card shadow-lg border-0 rounded-4 hover-scale">
-        <img src="images/project1.jpg" alt="Project 1" class="blog-card-img">
+        <img src="images/tuman.jpeg" alt="Project 1" class="blog-card-img">
         <div class="card-body">
           <h5 class="card-title text-primary fw-bold">Tubman Bridge Repair</h5>
           <p class="card-text fs-7 text-muted">Underwater concrete casting and welding for bridge stability and safety.</p>
@@ -129,9 +130,9 @@
     <!-- Blog Card 2 -->
     <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
       <div class="card shadow-lg border-0 rounded-4 hover-scale">
-        <img src="images/project2.jpg" alt="Project 2" class="blog-card-img">
+        <img src="images/Habor.jpeg" alt="Project 2" class="blog-card-img">
         <div class="card-body">
-          <h5 class="card-title text-primary fw-bold">Harbor Hull Inspection</h5>
+          <h5 class="card-title text-primary fw-bold">Harbor Hull Inspection & Cleaning</h5>
           <p class="card-text fs-7 text-muted">Comprehensive inspection of commercial vessels ensuring maritime safety.</p>
         </div>
       </div>
@@ -140,7 +141,7 @@
     <!-- Blog Card 3 -->
     <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
       <div class="card shadow-lg border-0 rounded-4 hover-scale">
-        <img src="images/project3.jpg" alt="Project 3" class="blog-card-img">
+        <img src="images/Bride.jpeg" alt="Project 3" class="blog-card-img">
         <div class="card-body">
           <h5 class="card-title text-primary fw-bold">Port Cleaning Operations</h5>
           <p class="card-text fs-7 text-muted">Collaboration with National Port Authority to clean key port areas efficiently.</p>
@@ -154,27 +155,77 @@
 <!-- Horizontal Scroll Latest Projects -->
 <section class="container my-5 py-5" data-aos="fade-up">
   <h2 class="text-primary mb-5 text-center display-5 fw-bold">More Projects</h2>
-  <div class="blog-scroll">
-    <div class="card flex-shrink-0 shadow-lg border-0 rounded-4 hover-scale" style="width: 220px;">
-      <img src="images/project4.jpg" alt="Project 4" class="blog-card-img">
-      <div class="card-body text-center">
-        <h5 class="card-title fs-6 fw-bold">Offshore Pipeline Survey</h5>
-      </div>
+
+  <div class="blog-scroll d-flex gap-4 pb-2">
+    
+    <!-- Card Item -->
+    <div class="project-card" onclick="openModal('images/Bride.jpeg', 'Offshore Pipeline Survey')">
+      <img src="images/Bride.jpeg" alt="Project 4">
+      <div class="overlay"><h5>Offshore Pipeline Survey</h5></div>
     </div>
-    <div class="card flex-shrink-0 shadow-lg border-0 rounded-4 hover-scale" style="width: 220px;">
-      <img src="images/project5.jpg" alt="Project 5" class="blog-card-img">
-      <div class="card-body text-center">
-        <h5 class="card-title fs-6 fw-bold">Submarine Dock Maintenance</h5>
-      </div>
+
+    <div class="project-card" onclick="openModal('images/APM.jpeg', 'Submarine Dock Maintenance')">
+      <img src="images/APM.jpeg" alt="Project 5">
+      <div class="overlay"><h5>Submarine Dock Maintenance</h5></div>
     </div>
-    <div class="card flex-shrink-0 shadow-lg border-0 rounded-4 hover-scale" style="width: 220px;">
-      <img src="images/project6.jpg" alt="Project 6" class="blog-card-img">
-      <div class="card-body text-center">
-        <h5 class="card-title fs-6 fw-bold">Beach Restoration Work</h5>
-      </div>
+
+    <div class="project-card" onclick="openModal('images/ship_maintence.jpeg', 'Beach Restoration Work')">
+      <img src="images/ship_maintence.jpeg" alt="Project 6">
+      <div class="overlay"><h5>Beach Restoration Work</h5></div>
     </div>
+
+    <div class="project-card" onclick="openModal('images/APM.jpeg', 'Port Cleaning Operations')">
+      <img src="images/APM.jpeg" alt="Project 7">
+      <div class="overlay"><h5>Port Cleaning Operations</h5></div>
+    </div>
+
+  </div>
+
+  <!-- Button -->
+  <div class="text-center mt-4">
+    <a href="projects.php" class="btn btn-primary px-5 py-2">View All Projects</a>
   </div>
 </section>
+
+<!-- Fullscreen Modal -->
+<div id="projectModal" class="modal-overlay" onclick="closeModal()">
+  <img id="modalImage" class="modal-content-img">
+  <div id="modalCaption" class="modal-caption"></div>
+</div>
+
+<!-- CSS -->
+<style>
+/* Scroll Styling */
+.blog-scroll { overflow-x: auto; scrollbar-width: thin; scrollbar-color: #005f99 #e0e0e0; }
+.blog-scroll::-webkit-scrollbar { height: 8px; }
+.blog-scroll::-webkit-scrollbar-track { background: #e0e0e0; border-radius: 10px; }
+.blog-scroll::-webkit-scrollbar-thumb { background: #005f99; border-radius: 10px; }
+
+/* Cards */
+.project-card { position: relative; width: 260px; height: 200px; border-radius: 15px; overflow: hidden; flex-shrink: 0; box-shadow: 0 10px 25px rgba(0,0,0,0.15); transition: transform 0.3s ease, box-shadow 0.3s ease; cursor: pointer; }
+.project-card:hover { transform: translateY(-8px); box-shadow: 0 15px 40px rgba(0,0,0,0.25); }
+.project-card img { width: 100%; height: 100%; object-fit: cover; }
+.project-card .overlay { position: absolute; bottom: 0; width: 100%; padding: 10px; background: linear-gradient(180deg, transparent, rgba(0,0,0,0.8)); color: white; text-align: center; }
+.project-card .overlay h5 { margin: 0; font-size: 1rem; font-weight: bold; }
+
+/* Modal */
+.modal-overlay { display: none; position: fixed; z-index: 9999; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.9); justify-content: center; align-items: center; flex-direction: column; }
+.modal-content-img { max-width: 90%; max-height: 80%; border-radius: 10px; }
+.modal-caption { color: #fff; margin-top: 15px; font-size: 1.2rem; }
+</style>
+
+<!-- JS -->
+<script>
+function openModal(imageSrc, caption) {
+  document.getElementById('projectModal').style.display = 'flex';
+  document.getElementById('modalImage').src = imageSrc;
+  document.getElementById('modalCaption').textContent = caption;
+}
+
+function closeModal() {
+  document.getElementById('projectModal').style.display = 'none';
+}
+</script>
 
 
 

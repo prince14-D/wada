@@ -77,11 +77,11 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">More</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="accreditation.html">Accreditation</a></li>
-            <li><a class="dropdown-item" href="equipment.html">Equipment</a></li>
+            <li><a class="dropdown-item" href="accreditation.php">Accreditation</a></li>
+            <li><a class="dropdown-item" href="equipment.php">Equipment</a></li>
           </ul>
         </li>
-        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
       </ul>
     </div>
   </div>
