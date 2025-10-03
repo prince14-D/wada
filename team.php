@@ -96,6 +96,8 @@
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="accreditation.php">Accreditation</a></li>
             <li><a class="dropdown-item" href="equipment.php">Equipment</a></li>
+            <li><a class="dropdown-item" href="#">Upload</a></li>
+            <li><a class="dropdown-item" href="#">Our Partner</a></li>
           </ul>
         </li>
         <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
