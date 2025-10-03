@@ -131,14 +131,26 @@
 <section id="contact-form" class="bg-light py-5">
   <div class="container">
     <h2 class="text-center text-primary fw-bold mb-4">Send Us a Message</h2>
-    <form class="row g-3 shadow p-4 bg-white rounded">
-      <div class="col-md-6"><input type="text" class="form-control" placeholder="Your Name" required></div>
-      <div class="col-md-6"><input type="email" class="form-control" placeholder="Your Email" required></div>
-      <div class="col-md-6"><input type="text" class="form-control" placeholder="Phone Number" required></div>
-      <div class="col-md-6"><input type="text" class="form-control" placeholder="Subject" required></div>
-      <div class="col-12"><textarea class="form-control" rows="5" placeholder="Your Message" required></textarea></div>
-      <div class="col-12 text-center"><button type="submit" class="btn btn-primary px-5">Submit</button></div>
-    </form>
+    <form class="row g-3" action="send_mail.php" method="POST">
+  <div class="col-md-6">
+    <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+  </div>
+  <div class="col-md-6">
+    <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+  </div>
+  <div class="col-md-6">
+    <input type="text" name="phone" class="form-control" placeholder="Phone Number" required>
+  </div>
+  <div class="col-md-6">
+    <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+  </div>
+  <div class="col-12">
+    <textarea name="message" class="form-control" rows="5" placeholder="Your Message" required></textarea>
+  </div>
+  <div class="col-12 text-center">
+    <button type="submit" class="btn btn-primary px-5">Submit</button>
+  </div>
+</form>
   </div>
 </section>
 

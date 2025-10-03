@@ -284,7 +284,7 @@
 
 
 <!-- WhatsApp Floating Button -->
-<a href="https://wa.me/1234567890" target="_blank" class="whatsapp-float">
+<a href="https://wa.me/+231776260932" target="_blank" class="whatsapp-float">
     <img src="images/whatsapp.png" alt="WhatsApp" style="width:60px; height:60px;">
 </a>
 

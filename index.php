@@ -100,7 +100,7 @@
       <div class="carousel-caption text-center text-white" data-aos="fade-up">
         <h1 class="display-3 fw-bold">West Africa Diving Association</h1>
         <p class="lead">Professional Diving Experiences in West Africa</p>
-        <a href="#contact" class="btn btn-primary btn-lg mt-3">Contact Us</a>
+        <a href="contact.php" class="btn btn-primary btn-lg mt-3">Contact Us</a>
       </div>
     </div>
     <div class="carousel-item">
@@ -108,7 +108,7 @@
       <div class="carousel-caption text-center text-white" data-aos="fade-up">
         <h1 class="display-3 fw-bold">Explore the Ocean</h1>
         <p class="lead">Safe and guided diving adventures for all levels</p>
-        <a href="#contact" class="btn btn-primary btn-lg mt-3">Get Started</a>
+        <a href="contact.php" class="btn btn-primary btn-lg mt-3">Get Started</a>
       </div>
     </div>
   </div>
@@ -388,7 +388,7 @@
 
 
 <!-- WhatsApp Floating Button -->
-<a href="https://wa.me/1234567890" target="_blank" class="whatsapp-float">
+<a href="https://wa.me/+231776260932" target="_blank" class="whatsapp-float">
     <img src="images/whatsapp.png" alt="WhatsApp" style="width:40px; height:40px;">
 </a>
 

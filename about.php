@@ -63,7 +63,7 @@
       <a href="https://facebook.com" target="_blank" class="text-white me-3"><i class="bi bi-facebook fs-5"></i></a>
       <a href="https://instagram.com" target="_blank" class="text-white me-3"><i class="bi bi-instagram fs-5"></i></a>
       <a href="https://linkedin.com" target="_blank" class="text-white me-3"><i class="bi bi-linkedin fs-5"></i></a>
-      <a href="https://wa.me/1234567890" target="_blank" class="text-white"><i class="bi bi-whatsapp fs-5"></i></a>
+      <a href="https://wa.me/+231776260932" target="_blank" class="text-white"><i class="bi bi-whatsapp fs-5"></i></a>
     </div>
   </div>
 </div>
@@ -304,7 +304,7 @@
 
 
 <!-- WhatsApp Floating Button -->
-<a href="https://wa.me/1234567890" target="_blank" class="whatsapp-float" style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
+<a href="https://wa.me/+231776260932" target="_blank" class="whatsapp-float" style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
     <img src="images/whatsapp.png" alt="WhatsApp" style="width:40px; height:40px;">
 </a>
 
