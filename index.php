@@ -16,7 +16,7 @@
 <style>
     body { font-family: 'Roboto', sans-serif; scroll-behavior: smooth; }
     h2, h3, h4 { font-family: 'Montserrat', sans-serif; }
-    section { padding: 80px 0; }
+    section { padding: 30px 0; }
     .navbar { background-color: #005f99; }
     .navbar-brand, .nav-link { font-weight: 600; }
     .nav-link:hover { color: #cce5ff !important; }
@@ -41,7 +41,7 @@
 <div class="bg-primary text-white py-2">
   <div class="container d-flex justify-content-between align-items-center">
     <div class="fs-6">
-      <strong>Contact:</strong> (+231) 886-517-084 / 776-260-932</a>
+      <strong>Contact:</strong> (+231) 886-517-084</a>
     </div>
     <div>
       <a href="https://facebook.com" target="_blank" class="text-white me-3">
@@ -389,7 +389,7 @@
 
 <!-- WhatsApp Floating Button -->
 <a href="https://wa.me/1234567890" target="_blank" class="whatsapp-float">
-    <img src="images/whatsapp.png" alt="WhatsApp" style="width:60px; height:60px;">
+    <img src="images/whatsapp.png" alt="WhatsApp" style="width:40px; height:40px;">
 </a>
 
 <!-- Footer -->

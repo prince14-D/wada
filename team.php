@@ -13,6 +13,7 @@
 <!-- Bootstrap Icons -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
 
+<link rel="icon" href="images/WADA_LOGO.jpeg" type="image/png">
 <style>
     body { font-family: 'Roboto', sans-serif; scroll-behavior: smooth; }
     h2, h3, h4 { font-family: 'Montserrat', sans-serif; }
@@ -162,7 +163,7 @@
 
 <!-- WhatsApp Floating Button -->
 <a href="https://wa.me/1234567890" target="_blank" class="whatsapp-float">
-    <img src="images/whatsapp.png" alt="WhatsApp" style="width:60px; height:60px;">
+    <img src="images/whatsapp.png" alt="WhatsApp" style="width:40px; height:40px;">
 </a>
 
 <!-- Footer -->

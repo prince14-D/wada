@@ -15,6 +15,8 @@
 <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 <!-- Bootstrap Icons -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+
+<link rel="icon" href="images/WADA_LOGO.jpeg" type="image/png">
 <style>
     body { font-family: 'Roboto', sans-serif; scroll-behavior: smooth; }
     h2, h3, h4 { font-family: 'Montserrat', sans-serif; }
@@ -56,7 +58,7 @@
 <!-- Top Header -->
 <div class="bg-primary text-white py-2">
   <div class="container d-flex justify-content-between align-items-center">
-    <div class="fs-6"><strong>Contact:</strong> (+231) 886-517-084 / 776260932</div>
+    <div class="fs-6"><strong>Contact:</strong> (+231) 886-517-084</div>
     <div>
       <a href="https://facebook.com" target="_blank" class="text-white me-3"><i class="bi bi-facebook fs-5"></i></a>
       <a href="https://instagram.com" target="_blank" class="text-white me-3"><i class="bi bi-instagram fs-5"></i></a>
@@ -77,17 +79,17 @@
       <ul class="navbar-nav ms-auto fs-5">
         <li class="nav-item"><a class="nav-link active" href="about.php">About</a></li>
         <li class="nav-item"><a class="nav-link" href="services.php">Services</a></li>
-        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-        <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+        <li class="nav-item"><a class="nav-link" href="projects.php">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="team.php">Team</a></li>
         <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">More</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="accreditation.html">Accreditation</a></li>
-            <li><a class="dropdown-item" href="equipment.html">Equipment</a></li>
+            <li><a class="dropdown-item" href="accreditation.php">Accreditation</a></li>
+            <li><a class="dropdown-item" href="equipment.php">Equipment</a></li>
           </ul>
         </li>
-        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
       </ul>
     </div>
   </div>
@@ -105,22 +107,39 @@
 <!-- About Content Section -->
 <section id="about" class="container my-5 py-5" data-aos="fade-up">
   <div class="row align-items-center">
+    
+    <!-- Image -->
     <div class="col-md-6 mb-4 mb-md-0" data-aos="fade-right">
       <img src="images/WADA_LOGO.jpeg" alt="WADA Team" class="img-fluid rounded shadow-lg">
     </div>
+
+    <!-- Text Content -->
     <div class="col-md-6" data-aos="fade-left">
-      <h2 class="text-primary mb-4 display-5 fw-bold">About Us</h2>
-      <p>West Africa Diving Association (WADA) has been a leader in marine construction and diving services in Liberia for over <strong>20 years</strong>. Our team is trained by professional divers from Finland Divers, DCN Global LLC, Stantly Consultancy, PADI, and BAM International. We provide customized solutions for complex underwater projects while ensuring safety, quality, and environmental responsibility.</p>
-      <ul class="fs-5">
+      <h2 class="text-primary mb-4 display-5 fw-bold" style="font-family: 'Montserrat', sans-serif;">About Us</h2>
+
+      <p class="fs-5" style="font-family: 'Roboto', sans-serif; line-height: 1.7;">
+        West Africa Diving Association (WADA) has been a leader in marine construction and diving services in Liberia for over 
+        <strong>20 years</strong>. Our team is trained by professional divers from Finland Divers, DCN Global LLC, Stantly Consultancy, 
+        PADI, and BAM International. We provide customized solutions for complex underwater projects while ensuring safety, quality, 
+        and environmental responsibility.
+      </p>
+
+      <ul class="fs-5" style="font-family: 'Roboto', sans-serif; line-height: 1.7;">
         <li>Project management, commercial diving, in-water surveys, hull inspections, environmental support</li>
         <li>Worked on Tubman Bridge, Freeport of Monrovia, Monrovia Container Terminal, and multiple port clean-ups</li>
         <li>Only local company to successfully salvage a wreck <strong>seven times</strong></li>
         <li>Trusted by United States Embassy, AMP Terminals, MSG Shipping, Ocean Shipping GETMA, and National Port Authority</li>
       </ul>
-      <p class="mt-4 fs-5"><strong>Contact Us:</strong> <a href="tel:+231886517084" class="text-primary fw-bold">(+231) 886-517-084</a></p>
+
+      <p class="mt-4 fs-5" style="font-family: 'Roboto', sans-serif;">
+        <strong>Contact Us:</strong> 
+        <a href="tel:+231886517084" class="text-primary fw-bold">(+231) 886-517-084</a>
+      </p>
     </div>
+
   </div>
 </section>
+
 
 <!-- Mission & Vision Section -->
 <section class="container my-5 py-5" data-aos="fade-up">
@@ -286,7 +305,7 @@
 
 <!-- WhatsApp Floating Button -->
 <a href="https://wa.me/1234567890" target="_blank" class="whatsapp-float" style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
-    <img src="images/whatsapp.png" alt="WhatsApp" style="width:60px; height:60px;">
+    <img src="images/whatsapp.png" alt="WhatsApp" style="width:40px; height:40px;">
 </a>
 
 <!-- Bootstrap JS -->

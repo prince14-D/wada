@@ -15,7 +15,7 @@
 <!-- Bootstrap Icons -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
 
-
+<link rel="icon" href="images/WADA_LOGO.jpeg" type="image/png">
 
 <style>
     body { font-family: 'Roboto', sans-serif; scroll-behavior: smooth; }
@@ -230,8 +230,8 @@ function closeModal() {
 
 
 <!-- WhatsApp Floating Button -->
-<a href="https://wa.me/1234567890" target="_blank" class="whatsapp-float">
-    <img src="images/whatsapp.png" alt="WhatsApp" style="width:60px; height:60px;">
+<a href="https://wa.me/1234567890" target="_blank" class="whatsapp-float" style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
+    <img src="images/whatsapp.png" alt="WhatsApp" style="width:40px; height:40px;">
 </a>
 
 <!-- Footer -->

@@ -13,6 +13,7 @@
 <!-- Bootstrap Icons -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
 
+<link rel="icon" href="images/WADA_LOGO.jpeg" type="image/png">
 <style>
     body { font-family: 'Roboto', sans-serif; scroll-behavior: smooth; }
     h2, h3, h4 { font-family: 'Montserrat', sans-serif; }
@@ -62,12 +63,12 @@
 <!-- Top Header -->
 <div class="bg-primary text-white py-2">
   <div class="container d-flex justify-content-between align-items-center">
-    <div class="fs-6"><strong>Contact:</strong> (+231) 886-517-084</div>
+    <div class="fs-6"><strong>Contact:</strong> (+231)886-517-084</div>
     <div>
       <a href="https://facebook.com" target="_blank" class="text-white me-3"><i class="bi bi-facebook fs-5"></i></a>
       <a href="https://instagram.com" target="_blank" class="text-white me-3"><i class="bi bi-instagram fs-5"></i></a>
       <a href="https://linkedin.com" target="_blank" class="text-white me-3"><i class="bi bi-linkedin fs-5"></i></a>
-      <a href="https://wa.me/1234567890" target="_blank" class="text-white"><i class="bi bi-whatsapp fs-5"></i></a>
+      <a href="https://wa.me/+231776260932" target="_blank" class="text-white"><i class="bi bi-whatsapp fs-5"></i></a>
     </div>
   </div>
 </div>
@@ -235,6 +236,51 @@
     </div>
   </div>
 </section>
+
+<!-- Accreditation & Certifications Section -->
+<section class="container my-5 py-5" data-aos="fade-up">
+  <div class="text-center mb-5">
+    <h2 class="text-primary display-6 fw-bold" style="font-family: 'Montserrat', sans-serif;">Accreditations & Certifications</h2>
+    <p class="fs-5" style="font-family: 'Roboto', sans-serif;">Recognized and trusted by international and national maritime authorities.</p>
+  </div>
+
+  <div class="row justify-content-center g-4">
+
+    <div class="col-md-3 col-6 text-center" data-aos="zoom-in">
+      <div class="p-4 bg-primary-light rounded-4 shadow-sm">
+        <i class="bi bi-patch-check fs-1 text-primary"></i>
+        <h5 class="mt-3 fw-bold" style="font-family: 'Montserrat', sans-serif;">PADI Certified</h5>
+        <p class="fs-6" style="font-family: 'Roboto', sans-serif;">Professional Association of Diving Instructors</p>
+      </div>
+    </div>
+
+    <div class="col-md-3 col-6 text-center" data-aos="zoom-in" data-aos-delay="100">
+      <div class="p-4 bg-primary-light rounded-4 shadow-sm">
+        <i class="bi bi-shield-lock fs-1 text-primary"></i>
+        <h5 class="mt-3 fw-bold" style="font-family: 'Montserrat', sans-serif;">IMCA Compliant</h5>
+        <p class="fs-6" style="font-family: 'Roboto', sans-serif;">International Marine Contractors Association Standards</p>
+      </div>
+    </div>
+
+    <div class="col-md-3 col-6 text-center" data-aos="zoom-in" data-aos-delay="200">
+      <div class="p-4 bg-primary-light rounded-4 shadow-sm">
+        <i class="bi bi-award fs-1 text-primary"></i>
+        <h5 class="mt-3 fw-bold" style="font-family: 'Montserrat', sans-serif;">ISO Safety Trained</h5>
+        <p class="fs-6" style="font-family: 'Roboto', sans-serif;">Occupational Health & Safety Standards</p>
+      </div>
+    </div>
+
+    <div class="col-md-3 col-6 text-center" data-aos="zoom-in" data-aos-delay="300">
+      <div class="p-4 bg-primary-light rounded-4 shadow-sm">
+        <i class="bi bi-gear-wide-connected fs-1 text-primary"></i>
+        <h5 class="mt-3 fw-bold" style="font-family: 'Montserrat', sans-serif;">DCN Global Trained</h5>
+        <p class="fs-6" style="font-family: 'Roboto', sans-serif;">Advanced Commercial Diving Certification</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 
 
 <!-- WhatsApp Floating Button -->
