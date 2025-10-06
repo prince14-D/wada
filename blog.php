@@ -61,12 +61,19 @@
     .blog-scroll::-webkit-scrollbar-thumb { background: #005f99; border-radius: 4px; }
 </style>
 </head>
+
+<!-- Load Facebook SDK -->
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" 
+  src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v17.0" nonce="FBSDK"></script>
 <body>
+
+
 
 <!-- Top Header -->
 <div class="bg-primary text-white py-2">
   <div class="container d-flex justify-content-between align-items-center">
-    <div class="fs-6"><strong>Contact:</strong> (+231) 886-517-084</div>
+    <div class="fs-6"><strong>Contact:</strong> (+231)77-626-0932</div>
     <div>
       <a href="https://facebook.com" target="_blank" class="text-white me-3"><i class="bi bi-facebook fs-5"></i></a>
       <a href="https://instagram.com" target="_blank" class="text-white me-3"><i class="bi bi-instagram fs-5"></i></a>
@@ -228,6 +235,32 @@ function closeModal() {
   document.getElementById('projectModal').style.display = 'none';
 }
 </script>
+
+<!-- Facebook Page Plugin Section -->
+<section class="container my-5 py-5" data-aos="fade-up">
+  <h2 class="text-primary mb-4 text-center display-5 fw-bold">Follow Us on Facebook</h2>
+  
+  <div class="row justify-content-center">
+    <div class="col-lg-8 col-md-10 col-09">
+      <div class="shadow rounded overflow-hidden">
+        <div class="fb-page"
+             data-href="https://www.facebook.com/profile.php?id=100063540273746"
+             data-tabs="timeline"
+             data-width="500"
+             data-height="600"
+             data-small-header="false"
+             data-adapt-container-width="true"
+             data-hide-cover="false"
+             data-show-facepile="true">
+          <blockquote cite="https://www.facebook.com/profile.php?id=100063540273746" class="fb-xfbml-parse-ignore">
+            <a href="https://www.facebook.com/profile.php?id=100063540273746">Facebook Page</a>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
 

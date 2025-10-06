@@ -63,7 +63,7 @@
 <!-- Top Header -->
 <div class="bg-primary text-white py-2">
   <div class="container d-flex justify-content-between align-items-center">
-    <div class="fs-6"><strong>Contact:</strong> (+231)886-517-084</div>
+    <div class="fs-6"><strong>Contact:</strong> (+231)77-626-0932</div>
     <div>
       <a href="https://facebook.com" target="_blank" class="text-white me-3"><i class="bi bi-facebook fs-5"></i></a>
       <a href="https://instagram.com" target="_blank" class="text-white me-3"><i class="bi bi-instagram fs-5"></i></a>

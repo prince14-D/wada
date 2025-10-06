@@ -41,7 +41,7 @@
 <div class="bg-primary text-white py-2">
   <div class="container d-flex justify-content-between align-items-center">
     <div class="fs-6">
-      <strong>Contact:</strong> (+231) 886-517-084</a>
+      <strong>Contact:</strong> (+231)77-626-0932</a>
     </div>
     <div>
       <a href="https://facebook.com" target="_blank" class="text-white me-3">
@@ -156,7 +156,7 @@
 
   <p class="mt-4 fs-5">
     <strong>Contact Us:</strong> 
-    <a href="tel:+231886517084" class="text-primary fw-bold">(+231) 886-517-084</a>
+    <a href="tel:+23177-626-0932" class="text-primary fw-bold">(+231)77-626-0932</a>
   </p>
 </div>
 
@@ -302,28 +302,28 @@
     <div class="row text-center g-4">
         <div class="col-md-3" data-aos="zoom-in">
             <div class="team-card rounded-4 shadow-lg p-3 hover-scale">
-                <img src="images/placeholder.png" alt="John Doe" class="img-fluid rounded-circle mb-3">
+                <img src="images/Ali Wleh Sackor.jpeg" alt="John Doe" class="img-fluid rounded-circle mb-3">
                 <h5 class="fs-5 fw-bold">John Doe</h5>
                 <p class="fs-5">Diving Instructor (PADI Certified)</p>
             </div>
         </div>
         <div class="col-md-3" data-aos="zoom-in" data-aos-delay="100">
             <div class="team-card rounded-4 shadow-lg p-3 hover-scale">
-                <img src="images/placeholder.png" alt="Jane Smith" class="img-fluid rounded-circle mb-3">
+                <img src="images/pic2.jpeg" alt="Jane Smith" class="img-fluid rounded-circle mb-3">
                 <h5 class="fs-5 fw-bold">Jane Smith</h5>
                 <p class="fs-5">Marine Engineer (BAM International)</p>
             </div>
         </div>
         <div class="col-md-3" data-aos="zoom-in" data-aos-delay="200">
             <div class="team-card rounded-4 shadow-lg p-3 hover-scale">
-                <img src="images/placeholder.png" alt="Michael Brown" class="img-fluid rounded-circle mb-3">
+                <img src="images/pic3.jpeg" alt="Michael Brown" class="img-fluid rounded-circle mb-3">
                 <h5 class="fs-5 fw-bold">Michael Brown</h5>
                 <p class="fs-5">Commercial Diver (DCN Global)</p>
             </div>
         </div>
         <div class="col-md-3" data-aos="zoom-in" data-aos-delay="300">
             <div class="team-card rounded-4 shadow-lg p-3 hover-scale">
-                <img src="images/placeholder.png" alt="Emily Davis" class="img-fluid rounded-circle mb-3">
+                <img src="images/pic4.jpeg" alt="Emily Davis" class="img-fluid rounded-circle mb-3">
                 <h5 class="fs-5 fw-bold">Emily Davis</h5>
                 <p class="fs-5">Environmental Specialist (DCN Global)</p>
             </div>

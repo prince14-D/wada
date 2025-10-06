@@ -67,7 +67,7 @@
 <!-- Top Header -->
 <div class="bg-primary text-white py-2">
   <div class="container d-flex justify-content-between align-items-center">
-    <div class="fs-6"><strong>Contact:</strong> (+231) 886-517-084</div>
+    <div class="fs-6"><strong>Contact:</strong> (+231)77-626-0932</div>
     <div>
       <a href="https://facebook.com" target="_blank" class="text-white me-3"><i class="bi bi-facebook fs-5"></i></a>
       <a href="https://instagram.com" target="_blank" class="text-white me-3"><i class="bi bi-instagram fs-5"></i></a>
@@ -120,7 +120,7 @@
     <div class="row g-4">
         <div class="col-md-4" data-aos="zoom-in">
             <div class="card shadow-lg border-0 rounded-4 hover-scale">
-                <img src="images/placeholder.png" alt="John Doe" class="team-img">
+                <img src="images/Ali Wleh Sackor.jpeg" alt="John Doe" class="team-img">
                 <div class="card-body text-center">
                     <h5 class="card-title fs-5 fw-bold">John Doe</h5>
                     <p class="card-text fs-6">Chief Executive Officer</p>
@@ -130,7 +130,7 @@
         </div>
         <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
             <div class="card shadow-lg border-0 rounded-4 hover-scale">
-                <img src="images/placeholder.png" alt="Jane Smith" class="team-img">
+                <img src="images/pic2.jpeg" alt="Jane Smith" class="team-img">
                 <div class="card-body text-center">
                     <h5 class="card-title fs-5 fw-bold">Jane Smith</h5>
                     <p class="card-text fs-6">Operations Manager</p>
@@ -140,7 +140,78 @@
         </div>
         <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
             <div class="card shadow-lg border-0 rounded-4 hover-scale">
-                <img src="images/placeholder.png" alt="Michael Brown" class="team-img">
+                <img src="images/pic3.jpeg" alt="Michael Brown" class="team-img">
+                <div class="card-body text-center">
+                    <h5 class="card-title fs-5 fw-bold">Michael Brown</h5>
+                    <p class="card-text fs-6">Lead Diving Specialist</p>
+                    <p class="card-text fs-7 text-muted">Expert diver trained in underwater inspections and welding.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Team Members Section -->
+<section class="container my-5 py-5" data-aos="fade-up">
+    <div class="row g-4">
+        <div class="col-md-4" data-aos="zoom-in">
+            <div class="card shadow-lg border-0 rounded-4 hover-scale">
+                <img src="images/pic4.jpeg" alt="John Doe" class="team-img">
+                <div class="card-body text-center">
+                    <h5 class="card-title fs-5 fw-bold">John Doe</h5>
+                    <p class="card-text fs-6">Chief Executive Officer</p>
+                    <p class="card-text fs-7 text-muted">20 years of maritime expertise leading WADA to innovate in diving solutions worldwide.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="card shadow-lg border-0 rounded-4 hover-scale">
+                <img src="images/pic6.jpeg" alt="Jane Smith" class="team-img">
+                <div class="card-body text-center">
+                    <h5 class="card-title fs-5 fw-bold">Jane Smith</h5>
+                    <p class="card-text fs-6">Operations Manager</p>
+                    <p class="card-text fs-7 text-muted">Ensures safety, efficiency, and timely delivery for every project.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="card shadow-lg border-0 rounded-4 hover-scale">
+                <img src="images/pic7.jpeg" alt="Michael Brown" class="team-img">
+                <div class="card-body text-center">
+                    <h5 class="card-title fs-5 fw-bold">Michael Brown</h5>
+                    <p class="card-text fs-6">Lead Diving Specialist</p>
+                    <p class="card-text fs-7 text-muted">Expert diver trained in underwater inspections and welding.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Team Members Section -->
+<section class="container my-5 py-5" data-aos="fade-up">
+    <div class="row g-4">
+        <div class="col-md-4" data-aos="zoom-in">
+            <div class="card shadow-lg border-0 rounded-4 hover-scale">
+                <img src="images/pic8.jpeg" alt="John Doe" class="team-img">
+                <div class="card-body text-center">
+                    <h5 class="card-title fs-5 fw-bold">John Doe</h5>
+                    <p class="card-text fs-6">Chief Executive Officer</p>
+                    <p class="card-text fs-7 text-muted">20 years of maritime expertise leading WADA to innovate in diving solutions worldwide.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="card shadow-lg border-0 rounded-4 hover-scale">
+                <img src="images/pic10.jpeg" alt="Jane Smith" class="team-img">
+                <div class="card-body text-center">
+                    <h5 class="card-title fs-5 fw-bold">Jane Smith</h5>
+                    <p class="card-text fs-6">Operations Manager</p>
+                    <p class="card-text fs-7 text-muted">Ensures safety, efficiency, and timely delivery for every project.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="card shadow-lg border-0 rounded-4 hover-scale">
+                <img src="images/pic3.jpeg" alt="Michael Brown" class="team-img">
                 <div class="card-body text-center">
                     <h5 class="card-title fs-5 fw-bold">Michael Brown</h5>
                     <p class="card-text fs-6">Lead Diving Specialist</p>
