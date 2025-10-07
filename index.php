@@ -303,28 +303,28 @@
         <div class="col-md-3" data-aos="zoom-in">
             <div class="team-card rounded-4 shadow-lg p-3 hover-scale">
                 <img src="images/Ali Wleh Sackor.jpeg" alt="John Doe" class="img-fluid rounded-circle mb-3">
-                <h5 class="fs-5 fw-bold">John Doe</h5>
-                <p class="fs-5">Diving Instructor (PADI Certified)</p>
+                <h5 class="fs-5 fw-bold">Prince D. Jegbadai</h5>
+                <p class="fs-5">Chief Executive Officer</p>
             </div>
         </div>
         <div class="col-md-3" data-aos="zoom-in" data-aos-delay="100">
             <div class="team-card rounded-4 shadow-lg p-3 hover-scale">
                 <img src="images/pic2.jpeg" alt="Jane Smith" class="img-fluid rounded-circle mb-3">
-                <h5 class="fs-5 fw-bold">Jane Smith</h5>
+                <h5 class="fs-5 fw-bold">Ali Dackie</h5>
                 <p class="fs-5">Marine Engineer (BAM International)</p>
             </div>
         </div>
         <div class="col-md-3" data-aos="zoom-in" data-aos-delay="200">
             <div class="team-card rounded-4 shadow-lg p-3 hover-scale">
                 <img src="images/pic3.jpeg" alt="Michael Brown" class="img-fluid rounded-circle mb-3">
-                <h5 class="fs-5 fw-bold">Michael Brown</h5>
+                <h5 class="fs-5 fw-bold">Cyrus Donyen</h5>
                 <p class="fs-5">Commercial Diver (DCN Global)</p>
             </div>
         </div>
         <div class="col-md-3" data-aos="zoom-in" data-aos-delay="300">
             <div class="team-card rounded-4 shadow-lg p-3 hover-scale">
                 <img src="images/pic4.jpeg" alt="Emily Davis" class="img-fluid rounded-circle mb-3">
-                <h5 class="fs-5 fw-bold">Emily Davis</h5>
+                <h5 class="fs-5 fw-bold">Tom Kazouh</h5>
                 <p class="fs-5">Environmental Specialist (DCN Global)</p>
             </div>
         </div>
