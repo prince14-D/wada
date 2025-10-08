@@ -316,8 +316,8 @@
         </div>
         <div class="col-md-3" data-aos="zoom-in" data-aos-delay="200">
             <div class="team-card rounded-4 shadow-lg p-3 hover-scale">
-                <img src="images/pic3.jpeg" alt="Michael Brown" class="img-fluid rounded-circle mb-3">
-                <h5 class="fs-5 fw-bold">Cyrus Donyen</h5>
+                <img src="images/Elijah.jpg" alt="Michael Brown" class="img-fluid rounded-circle mb-3">
+                <h5 class="fs-5 fw-bold">Elijah Ray Barclay</h5>
                 <p class="fs-5">Commercial Diver (DCN Global)</p>
             </div>
         </div>

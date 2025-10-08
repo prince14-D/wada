@@ -183,8 +183,28 @@
       <div class="overlay"><h5>Beach Restoration Work</h5></div>
     </div>
 
-    <div class="project-card" onclick="openModal('images/APM.jpeg', 'Port Cleaning Operations')">
-      <img src="images/APM.jpeg" alt="Project 7">
+    <div class="project-card" onclick="openModal('images/workpic4.jpeg', 'Port Cleaning Operations')">
+      <img src="images/workpic4.jpeg" alt="Project 7">
+      <div class="overlay"><h5>Port Cleaning Operations</h5></div>
+    </div>
+
+    <div class="project-card" onclick="openModal('images/workpic1.jpeg', 'Port Cleaning Operations')">
+      <img src="images/workpic1.jpeg" alt="Project 7">
+      <div class="overlay"><h5>Port Cleaning Operations</h5></div>
+    </div>
+
+    <div class="project-card" onclick="openModal('images/workpic2.jpeg', 'Port Cleaning Operations')">
+      <img src="images/workpic2.jpeg" alt="Project 7">
+      <div class="overlay"><h5>Port Cleaning Operations</h5></div>
+    </div>
+
+    <div class="project-card" onclick="openModal('images/workpic3.jpeg', 'Port Cleaning Operations')">
+      <img src="images/workpic3.jpeg" alt="Project 7">
+      <div class="overlay"><h5>Port Cleaning Operations</h5></div>
+    </div>
+
+    <div class="project-card" onclick="openModal('images/workpic5.jpeg', 'Port Cleaning Operations')">
+      <img src="images/workpic5.jpeg" alt="Project 7">
       <div class="overlay"><h5>Port Cleaning Operations</h5></div>
     </div>
 

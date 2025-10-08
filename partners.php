@@ -105,7 +105,7 @@
     <!-- Partner 1 -->
     <div class="col-6 col-md-3" data-aos="zoom-in">
       <div class="card h-100 shadow-lg border-0 rounded-4 hover-scale p-3">
-        <img src="images/partner1.png" class="card-img-top img-fluid" alt="Liberia Maritime Authority">
+        <img src="images/Liberia-Maritime-Authority-LiMA.jpeg" class="card-img-top img-fluid" alt="Liberia Maritime Authority">
         <div class="card-body">
           <h5 class="card-title fs-5 fw-bold">Liberia Maritime Authority</h5>
         </div>
@@ -115,7 +115,7 @@
     <!-- Partner 2 -->
     <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="100">
       <div class="card h-100 shadow-lg border-0 rounded-4 hover-scale p-3">
-        <img src="images/partner2.png" class="card-img-top img-fluid" alt="AMP Terminals">
+        <img src="images/apm-terminals-logo-png_seeklogo-425642.png" class="card-img-top img-fluid" alt="AMP Terminals">
         <div class="card-body">
           <h5 class="card-title fs-5 fw-bold">AMP Terminals</h5>
         </div>
@@ -125,7 +125,7 @@
     <!-- Partner 3 -->
     <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="200">
       <div class="card h-100 shadow-lg border-0 rounded-4 hover-scale p-3">
-        <img src="images/partner3.png" class="card-img-top img-fluid" alt="PAE">
+        <img src="images/pAE.jpg" class="card-img-top img-fluid" alt="PAE">
         <div class="card-body">
           <h5 class="card-title fs-5 fw-bold">PAE</h5>
         </div>
@@ -135,7 +135,7 @@
     <!-- Partner 4 -->
     <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="300">
       <div class="card h-100 shadow-lg border-0 rounded-4 hover-scale p-3">
-        <img src="images/partner4.png" class="card-img-top img-fluid" alt="MSG Shipping">
+        <img src="images/msclogo.png" class="card-img-top img-fluid" alt="MSG Shipping">
         <div class="card-body">
           <h5 class="card-title fs-5 fw-bold">MSG Shipping</h5>
         </div>
@@ -145,7 +145,7 @@
     <!-- Partner 5 -->
     <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="400">
       <div class="card h-100 shadow-lg border-0 rounded-4 hover-scale p-3">
-        <img src="images/partner5.png" class="card-img-top img-fluid" alt="OBT Shipping">
+        <img src="images/OBT-Shipping-1.png" class="card-img-top img-fluid" alt="OBT Shipping">
         <div class="card-body">
           <h5 class="card-title fs-5 fw-bold">OBT Shipping</h5>
         </div>
