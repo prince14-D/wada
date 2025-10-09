@@ -122,7 +122,7 @@
             <div class="card shadow-lg border-0 rounded-4 hover-scale">
                 <img src="images/Ali Wleh Sackor.jpeg" alt="John Doe" class="team-img">
                 <div class="card-body text-center">
-                    <h5 class="card-title fs-5 fw-bold">John Doe</h5>
+                    <h5 class="card-title fs-5 fw-bold">Prince D. Jegbadai</h5>
                     <p class="card-text fs-6">Chief Executive Officer</p>
                     <p class="card-text fs-7 text-muted">20 years of maritime expertise leading WADA to innovate in diving solutions worldwide.</p>
                 </div>
@@ -132,7 +132,7 @@
             <div class="card shadow-lg border-0 rounded-4 hover-scale">
                 <img src="images/pic2.jpeg" alt="Jane Smith" class="team-img">
                 <div class="card-body text-center">
-                    <h5 class="card-title fs-5 fw-bold">Jane Smith</h5>
+                    <h5 class="card-title fs-5 fw-bold">Ali Dackie</h5>
                     <p class="card-text fs-6">Operations Manager</p>
                     <p class="card-text fs-7 text-muted">Ensures safety, efficiency, and timely delivery for every project.</p>
                 </div>
@@ -140,9 +140,9 @@
         </div>
         <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
             <div class="card shadow-lg border-0 rounded-4 hover-scale">
-                <img src="images/pic3.jpeg" alt="Michael Brown" class="team-img">
+                <img src="images/Elijah.jpg" alt="Michael Brown" class="team-img">
                 <div class="card-body text-center">
-                    <h5 class="card-title fs-5 fw-bold">Michael Brown</h5>
+                    <h5 class="card-title fs-5 fw-bold">Elijah Ray Barclay</h5>
                     <p class="card-text fs-6">Lead Diving Specialist</p>
                     <p class="card-text fs-7 text-muted">Expert diver trained in underwater inspections and welding.</p>
                 </div>
@@ -157,9 +157,9 @@
             <div class="card shadow-lg border-0 rounded-4 hover-scale">
                 <img src="images/pic4.jpeg" alt="John Doe" class="team-img">
                 <div class="card-body text-center">
-                    <h5 class="card-title fs-5 fw-bold">John Doe</h5>
-                    <p class="card-text fs-6">Chief Executive Officer</p>
-                    <p class="card-text fs-7 text-muted">20 years of maritime expertise leading WADA to innovate in diving solutions worldwide.</p>
+                    <h5 class="card-title fs-5 fw-bold">Tom Kazouh</h5>
+                    <p class="card-text fs-6">Environmental Specialist</p>
+                    <p class="card-text fs-7 text-muted">10 years of maritime expertise leading WADA to innovate in diving solutions worldwide.</p>
                 </div>
             </div>
         </div>
@@ -167,8 +167,8 @@
             <div class="card shadow-lg border-0 rounded-4 hover-scale">
                 <img src="images/pic6.jpeg" alt="Jane Smith" class="team-img">
                 <div class="card-body text-center">
-                    <h5 class="card-title fs-5 fw-bold">Jane Smith</h5>
-                    <p class="card-text fs-6">Operations Manager</p>
+                    <h5 class="card-title fs-5 fw-bold">Melvin Wiaka</h5>
+                    <p class="card-text fs-6">Operations Specialist</p>
                     <p class="card-text fs-7 text-muted">Ensures safety, efficiency, and timely delivery for every project.</p>
                 </div>
             </div>
@@ -177,8 +177,8 @@
             <div class="card shadow-lg border-0 rounded-4 hover-scale">
                 <img src="images/pic7.jpeg" alt="Michael Brown" class="team-img">
                 <div class="card-body text-center">
-                    <h5 class="card-title fs-5 fw-bold">Michael Brown</h5>
-                    <p class="card-text fs-6">Lead Diving Specialist</p>
+                    <h5 class="card-title fs-5 fw-bold">Wleh Sackor</h5>
+                    <p class="card-text fs-6">Operations Specialist</p>
                     <p class="card-text fs-7 text-muted">Expert diver trained in underwater inspections and welding.</p>
                 </div>
             </div>
@@ -193,30 +193,16 @@
             <div class="card shadow-lg border-0 rounded-4 hover-scale">
                 <img src="images/pic8.jpeg" alt="John Doe" class="team-img">
                 <div class="card-body text-center">
-                    <h5 class="card-title fs-5 fw-bold">John Doe</h5>
-                    <p class="card-text fs-6">Chief Executive Officer</p>
-                    <p class="card-text fs-7 text-muted">20 years of maritime expertise leading WADA to innovate in diving solutions worldwide.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="card shadow-lg border-0 rounded-4 hover-scale">
-                <img src="images/pic10.jpeg" alt="Jane Smith" class="team-img">
-                <div class="card-body text-center">
-                    <h5 class="card-title fs-5 fw-bold">Jane Smith</h5>
-                    <p class="card-text fs-6">Operations Manager</p>
-                    <p class="card-text fs-7 text-muted">Ensures safety, efficiency, and timely delivery for every project.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
-            <div class="card shadow-lg border-0 rounded-4 hover-scale">
-                <img src="images/pic3.jpeg" alt="Michael Brown" class="team-img">
-                <div class="card-body text-center">
-                    <h5 class="card-title fs-5 fw-bold">Michael Brown</h5>
-                    <p class="card-text fs-6">Lead Diving Specialist</p>
+                    <h5 class="card-title fs-5 fw-bold">Oliver Cole</h5>
+                    <p class="card-text fs-6">Operations Specialist</p>
                     <p class="card-text fs-7 text-muted">Expert diver trained in underwater inspections and welding.</p>
                 </div>
+            </div>
+        </div>
+       
+            </div>
+        </div>
+        
             </div>
         </div>
     </div>
@@ -240,8 +226,9 @@
 </a>
 
 <!-- Footer -->
-<footer>
-    &copy; 2025 West Africa Diving Association. All rights reserved.
+<footer style="background-color: #003366; color: white; text-align: center; padding: 30px 0;">
+  &copy; 2025 West Africa Diving Association. All rights reserved. <br>
+  Developed by <a href="https://www.tecliberia.com" target="_blank" style="color: #00aced; text-decoration: none;">Tec Liberia</a>.
 </footer>
 
 <!-- Bootstrap JS -->

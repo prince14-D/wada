@@ -163,7 +163,8 @@
 
 <!-- Footer -->
 <footer style="background-color: #003366; color: white; text-align: center; padding: 30px 0;">
-  &copy; 2025 West Africa Diving Association. All rights reserved.
+  &copy; 2025 West Africa Diving Association. All rights reserved. <br>
+  Developed by <a href="https://www.tecliberia.com" target="_blank" style="color: #00aced; text-decoration: none;">Tec Liberia</a>.
 </footer>
 
 <!-- ✅ Bootstrap JS -->
