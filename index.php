@@ -295,6 +295,50 @@
     }
 </style>
 
+<!-- Accreditation Section -->
+<section id="accreditation" class="container my-5 py-5" style="background-color:#f8f9fa; border-radius:15px;" data-aos="fade-up">
+    <h2 class="text-primary mb-5 text-center display-5 fw-bold">Accreditation</h2>
+    
+    <div class="row align-items-center g-4">
+        
+        <!-- Certificate Image -->
+        <div class="col-md-6 text-center" data-aos="fade-right">
+            <img src="images/WADAcert.jpeg" 
+                 alt="Liberia Maritime Authority Accreditation Certificate" 
+                 class="img-fluid rounded shadow-lg" 
+                 style="max-height: 450px; object-fit: contain;">
+        </div>
+
+        <!-- Accreditation Details -->
+        <div class="col-md-6" data-aos="fade-left">
+            <h3 class="fw-bold text-primary">Officially Certified by the Liberia Maritime Authority</h3>
+            <p class="fs-5 mt-3">
+                West Africa Diving Association (WADA) is a fully recognized and accredited underwater 
+                services provider by the <strong>Liberia Maritime Authority (LiMA)</strong>. This accreditation 
+                confirms our compliance with national and international marine safety standards, operational 
+                best practices, and professional diving protocols.
+            </p>
+
+            <ul class="fs-5 mt-3">
+                <li>Government-approved commercial diving operations</li>
+                <li>Meets international marine safety compliance requirements</li>
+                <li>Authorized to conduct underwater surveys, hull inspections, salvage, and in-water repairs</li>
+                <li>Recognized for professional excellence in marine and underwater engineering services</li>
+            </ul>
+
+            <p class="fs-5 mt-3">
+                This certification reinforces our commitment to delivering safe, reliable, and professionally 
+                compliant services across Liberia and the West African region.
+            </p>
+
+            <a href="contact.php" class="btn btn-primary btn-lg mt-3 rounded-pill">
+                Verify or Contact Us
+            </a>
+        </div>
+    </div>
+</section>
+
+
 
 <!-- Team Section -->
 <section id="team" class="container my-5 py-5" style="background-color: #f8f9fa; border-radius: 15px;" data-aos="fade-up">
