@@ -163,6 +163,7 @@
           <h5 class="card-title text-primary fw-bold">Port Cleaning Operations</h5>
           <p class="card-text fs-7 text-muted">Collaboration with National Port Authority to clean key port areas efficiently.</p>
         </div>
+
          <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
       <div class="card shadow-lg border-0 rounded-4 hover-scale">
         <img src="images/Bride.jpeg" alt="Project 3" class="blog-card-img">
@@ -174,7 +175,7 @@
     </div>
     
 
-  </div>
+
 </section>
 
 <!-- Horizontal Scroll Latest Projects -->
